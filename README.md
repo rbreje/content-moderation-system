@@ -118,3 +118,12 @@ GET /scoring-service/api/v1/score
 # How to Build & Run It
 
 TBA
+
+# TODOs
+
+- [x] Create initial design and implementation plan;
+- [ ] Create the base project;
+- [ ] Implement the mocked services related stuff;
+- [ ] Implement the API endpoints;
+- [ ] Design & implement the DB schema;
+- [ ] Add SonarCloud analysis;
