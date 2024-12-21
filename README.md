@@ -127,3 +127,7 @@ TBA
 - [ ] Implement the API endpoints;
 - [ ] Design & implement the DB schema;
 - [ ] Add SonarCloud analysis;
+
+# Further features
+
+- Retry mechanism for failed connections to third-party services;
