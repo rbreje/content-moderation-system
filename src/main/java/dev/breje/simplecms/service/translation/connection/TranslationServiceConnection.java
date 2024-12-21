@@ -1,4 +1,4 @@
-package dev.breje.simplecms.service.translation;
+package dev.breje.simplecms.service.translation.connection;
 
 import dev.breje.simplecms.service.translation.dtos.TranslationRequest;
 import dev.breje.simplecms.service.translation.dtos.TranslationResponse;
@@ -16,7 +16,6 @@ import static java.lang.Thread.sleep;
 public class TranslationServiceConnection {
 
     private static final Logger log = LoggerFactory.getLogger(TranslationServiceConnection.class);
-
     private final Random random;
 
     @Autowired
@@ -26,7 +25,7 @@ public class TranslationServiceConnection {
 
     public TranslationResponse translate(TranslationRequest request) throws TranslationServiceConnectionException {
         try {
-            log.debug("Making request to /translation/api/v1/translate endpoint...");
+            log.debug("Making request to /translation-service/api/v1/translate endpoint...");
             int fakeLatency = getFakeLatency();
             sleep(fakeLatency);
             log.debug("Response received.");

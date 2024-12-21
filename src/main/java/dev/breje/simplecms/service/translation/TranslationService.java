@@ -1,5 +1,6 @@
 package dev.breje.simplecms.service.translation;
 
+import dev.breje.simplecms.service.translation.connection.TranslationServiceConnection;
 import dev.breje.simplecms.service.translation.dtos.TranslationRequest;
 import dev.breje.simplecms.service.translation.dtos.TranslationResponse;
 import dev.breje.simplecms.service.translation.exceptions.TranslationServiceConnectionException;
