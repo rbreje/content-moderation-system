@@ -122,7 +122,7 @@ TBA
 # TODOs
 
 - [x] Create initial design and implementation plan;
-- [ ] Create the base project;
+- [x] Create the base project;
 - [ ] Implement the mocked services related stuff;
 - [ ] Implement the API endpoints;
 - [ ] Design & implement the DB schema;

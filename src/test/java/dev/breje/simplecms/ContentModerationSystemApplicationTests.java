@@ -1,4 +1,4 @@
-package dev.breje.simple_cms;
+package dev.breje.simplecms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
