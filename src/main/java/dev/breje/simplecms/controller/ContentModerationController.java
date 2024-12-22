@@ -12,24 +12,26 @@ import org.springframework.web.multipart.MultipartFile;
 
 @Validated
 @RestController
-@RequestMapping("/v1/file")
+@RequestMapping("/api/v1/file")
 public class ContentModerationController {
 
-    private final StorageService fileService;
+    private final StorageService storageService;
 
     @Autowired
     public ContentModerationController(StorageService storageService) {
-        this.fileService = storageService;
+        this.storageService = storageService;
     }
 
     @PostMapping
     public ResponseEntity<FileUploadResponse> upload(@Validated @RequestParam("file") MultipartFile file) throws StorageException {
-        String uploadId = fileService.store(getFileUploadRequest(file));
+        String uploadId = storageService.store(getFileUploadRequest(file));
         return ResponseEntity.ok(new FileUploadResponse(uploadId));
     }
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<String> download(@Validated @PathVariable String id) {
+        // convert to request
+        // return response
         return ResponseEntity.ok("file path or something");
     }
 

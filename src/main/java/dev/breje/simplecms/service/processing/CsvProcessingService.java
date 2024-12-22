@@ -1,4 +1,4 @@
-package dev.breje.simplecms.service;
+package dev.breje.simplecms.service.processing;
 
 import dev.breje.simplecms.domain.InputMessage;
 import dev.breje.simplecms.service.scoring.ScoringService;
@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @Service
-public class ContentModerationService {
+public class CsvProcessingService implements Runnable {
 
     private final TranslationService translationService;
     private final ScoringService scoringService;
@@ -18,7 +18,7 @@ public class ContentModerationService {
     private ExecutorService executorService;
 
     @Autowired
-    public ContentModerationService(TranslationService translationService, ScoringService scoringService) {
+    public CsvProcessingService(TranslationService translationService, ScoringService scoringService) {
         this.translationService = translationService;
         this.scoringService = scoringService;
         
@@ -38,6 +38,11 @@ public class ContentModerationService {
             
         });
     }
-    
-    
+
+
+    @Override
+    public void run() {
+        // check DB for every added file
+        // launch worker for each line of the CSV file
+    }
 }
