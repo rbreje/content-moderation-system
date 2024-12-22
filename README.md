@@ -11,7 +11,13 @@ An app developed as a technical test with preconditions and specific requirement
 
 ## Content Moderation System Design
 
-![General Architecture](./Design/overall-architecture.png)
+### Initial Design
+
+![Initial Design](./Design/overall-architecture-v1.png)
+
+### First Iteration
+
+![First Iteration](./Design/cms-architecture-v2.png)
 
 ### API Endpoints
 
@@ -123,8 +129,10 @@ TBA
 
 - [x] Create initial design and implementation plan;
 - [x] Create the base project;
-- [ ] Implement the mocked services related stuff;
+- [x] Implement the mocked services related stuff;
+- [x] Implement storage mechanism of the input files;
 - [ ] Implement the API endpoints;
+- [ ] Implement the business logic with concurrence execution;
 - [ ] Design & implement the DB schema;
 - [ ] Add SonarCloud analysis;
 
