@@ -3,6 +3,7 @@ package dev.breje.simplecms.service.storage;
 import dev.breje.simplecms.dtos.FileUploadRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.FileSystemUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -45,5 +46,10 @@ public class FilesystemStorageService implements StorageService {
         } catch (IOException e) {
             throw new StorageException("Could not initialize storage.", e);
         }
+    }
+
+    @Override
+    public void clear() {
+        FileSystemUtils.deleteRecursively(rootLocation.toFile());
     }
 }

@@ -18,7 +18,10 @@ public class ContentModerationSystemApplication {
 
     @Bean
     CommandLineRunner init(StorageService storageService) {
-        return args -> storageService.init();
+        return args -> {
+            storageService.clear();
+            storageService.init();
+        };
     }
 
 }
