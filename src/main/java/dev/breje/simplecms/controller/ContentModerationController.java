@@ -2,10 +2,9 @@ package dev.breje.simplecms.controller;
 
 import dev.breje.simplecms.dtos.FileUploadRequest;
 import dev.breje.simplecms.dtos.FileUploadResponse;
-import dev.breje.simplecms.service.ContentModerationService;
-import dev.breje.simplecms.service.FileStorageService;
+import dev.breje.simplecms.service.storage.StorageException;
+import dev.breje.simplecms.service.storage.StorageService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -16,21 +15,16 @@ import org.springframework.web.multipart.MultipartFile;
 @RequestMapping("/v1/file")
 public class ContentModerationController {
 
-    private final FileStorageService fileService;
-    private final ContentModerationService service;
+    private final StorageService fileService;
 
     @Autowired
-    public ContentModerationController(FileStorageService fileService, ContentModerationService service) {
-        this.fileService = fileService;
-        this.service = service;
+    public ContentModerationController(StorageService storageService) {
+        this.fileService = storageService;
     }
 
-    @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<FileUploadResponse> upload(@Validated @RequestParam("file") MultipartFile file) {
+    @PostMapping
+    public ResponseEntity<FileUploadResponse> upload(@Validated @RequestParam("file") MultipartFile file) throws StorageException {
         String uploadId = fileService.store(getFileUploadRequest(file));
-
-        service.moderateFile("file path or something");
-
         return ResponseEntity.ok(new FileUploadResponse(uploadId));
     }
 

@@ -131,6 +131,7 @@ TBA
 - [x] Create the base project;
 - [x] Implement the mocked services related stuff;
 - [x] Implement storage mechanism of the input files;
+  - [ ] Create database to store each input file;
 - [ ] Implement the API endpoints;
 - [ ] Implement the business logic with concurrence execution;
 - [ ] Design & implement the DB schema;
