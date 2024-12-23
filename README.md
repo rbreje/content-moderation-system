@@ -34,7 +34,7 @@ or result later.
 
 #### Request
 
-TBA
+file="path_to_your_file.csv"
 
 #### Response
 
@@ -64,7 +64,7 @@ files. Hence, the endpoint will return an IN_PROGRESS status until the job is do
 
 #### Response (READY)
 
-TBA
+CSV content.
 
 ### Database
 
@@ -127,7 +127,28 @@ GET /scoring-service/api/v1/score
 
 # How to Build & Run It
 
-TBA
+```shell
+./gradlew bootRun
+```
+
+The best would be to use a REST client as Insomnia or Postman to test the API endpoints.
+
+To provide the endpoint with a file to process.
+
+```shell
+curl --request POST \
+  --url http://localhost:8080/api/v1/file \
+  --header 'Content-Type: multipart/form-data' \
+  --form 'file=@/home/rbreje/dev/workspaces/personal-workspace/content-moderation-system/Input Samples/input1.csv'
+```
+
+To retrieve the outfile or check the status.
+
+```shell
+curl --request GET \
+  --url http://localhost:8080/api/v1/file/ab8f2571-f107-4c4b-94ed-dcea2890360a \
+  --header 'Content-Type: multipart/form-data; boundary=---011000010111000001101001'
+```
 
 # TODOs
 
