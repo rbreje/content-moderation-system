@@ -131,8 +131,9 @@ TBA
 - [x] Create the base project;
 - [x] Implement the mocked services related stuff;
 - [x] Implement storage mechanism of the input files;
-  - [ ] Create database to store each input file;
-- [ ] Implement the API endpoints;
+- [x] Create database to store each input file;
+- [x] Implement the API endpoint to store the input files;
+- [x] Implement the API endpoint to download the output files;
 - [ ] Implement the business logic with concurrence execution;
 - [ ] Design & implement the DB schema;
 - [ ] Add SonarCloud analysis;

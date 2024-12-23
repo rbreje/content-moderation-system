@@ -28,7 +28,7 @@
         <mxCell id="LMCk-6EXWgVPA9m0hhWR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cMd5BygnKpUt7O7GiCmX-12" source="LMCk-6EXWgVPA9m0hhWR-2" target="cMd5BygnKpUt7O7GiCmX-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LMCk-6EXWgVPA9m0hhWR-2" value="CMS&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;File Service&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cMd5BygnKpUt7O7GiCmX-12">
+        <mxCell id="LMCk-6EXWgVPA9m0hhWR-2" value="CMS&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Storage Service&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cMd5BygnKpUt7O7GiCmX-12">
           <mxGeometry x="180" y="70" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cMd5BygnKpUt7O7GiCmX-6" value="POST /api/v1/file&lt;div&gt;GET /api/v1/file/{id}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="cMd5BygnKpUt7O7GiCmX-12" vertex="1">
@@ -82,6 +82,9 @@
             <mxPoint x="330" y="270" as="sourcePoint" />
             <mxPoint x="370" y="270" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LMCk-6EXWgVPA9m0hhWR-38" value="InputEntry&lt;div&gt;- ID&lt;/div&gt;&lt;div&gt;- UUID&lt;/div&gt;&lt;div&gt;- STATUS&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="240" width="160" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

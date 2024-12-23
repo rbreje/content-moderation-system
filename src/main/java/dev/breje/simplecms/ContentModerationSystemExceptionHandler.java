@@ -1,5 +1,7 @@
 package dev.breje.simplecms;
 
+import dev.breje.simplecms.service.processing.exceptions.FileNotFoundException;
+import dev.breje.simplecms.service.processing.exceptions.ProcessingException;
 import dev.breje.simplecms.service.storage.StorageException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +20,21 @@ public class ContentModerationSystemExceptionHandler {
         body.put("message", e.getMessage());
         // TODO replace with good HTTP status code
         return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
+    @ExceptionHandler(ProcessingException.class)
+    public ResponseEntity<Object> handleProcessingException(ProcessingException e) {
+        Map<String, Object> body = new HashMap<>();
+        body.put("message", e.getMessage());
+        // TODO replace with good HTTP status code
+        return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
+    @ExceptionHandler(FileNotFoundException.class)
+    public ResponseEntity<Object> handleFileNotFoundException(FileNotFoundException e) {
+        Map<String, Object> body = new HashMap<>();
+        body.put("message", e.getMessage());
+        return new ResponseEntity<>(body, HttpStatus.NOT_FOUND);
     }
 
 }

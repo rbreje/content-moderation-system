@@ -1,6 +1,7 @@
 package dev.breje.simplecms.service.storage;
 
 import dev.breje.simplecms.dtos.FileUploadRequest;
+import dev.breje.simplecms.dtos.FileUploadResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.FileSystemUtils;
@@ -26,7 +27,7 @@ public class FilesystemStorageService implements StorageService {
     }
 
     @Override
-    public String store(FileUploadRequest request) throws StorageException {
+    public FileUploadResponse store(FileUploadRequest request) throws StorageException {
         String uuid = UUID.randomUUID().toString();
         String filename = uuid + ".csv";
         Path destination = this.rootLocation.resolve(Paths.get(filename)).normalize().toAbsolutePath();
@@ -36,7 +37,7 @@ public class FilesystemStorageService implements StorageService {
         } catch (IOException e) {
             throw new StorageException("Failed to store file.", e);
         }
-        return uuid;
+        return new FileUploadResponse(uuid);
     }
 
     @Override

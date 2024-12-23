@@ -1,7 +1,12 @@
 package dev.breje.simplecms.controller;
 
+import dev.breje.simplecms.dtos.FileDownloadRequest;
+import dev.breje.simplecms.dtos.FileDownloadResponse;
 import dev.breje.simplecms.dtos.FileUploadRequest;
 import dev.breje.simplecms.dtos.FileUploadResponse;
+import dev.breje.simplecms.service.processing.ProcessingService;
+import dev.breje.simplecms.service.processing.exceptions.FileNotFoundException;
+import dev.breje.simplecms.service.processing.exceptions.ProcessingException;
 import dev.breje.simplecms.service.storage.StorageException;
 import dev.breje.simplecms.service.storage.StorageService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,27 +21,39 @@ import org.springframework.web.multipart.MultipartFile;
 public class ContentModerationController {
 
     private final StorageService storageService;
+    private final ProcessingService processingService;
 
     @Autowired
-    public ContentModerationController(StorageService storageService) {
+    public ContentModerationController(StorageService storageService, ProcessingService processingService) {
         this.storageService = storageService;
+        this.processingService = processingService;
     }
 
     @PostMapping
     public ResponseEntity<FileUploadResponse> upload(@Validated @RequestParam("file") MultipartFile file) throws StorageException {
-        String uploadId = storageService.store(getFileUploadRequest(file));
-        return ResponseEntity.ok(new FileUploadResponse(uploadId));
+        FileUploadResponse response = storageService.store(getFileUploadRequest(file));
+        processingService.addFileEntry(getFileDownloadRequest(response.id()));
+        return ResponseEntity.ok(response);
+        // TODO change status code to 201
     }
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<String> download(@Validated @PathVariable String id) {
-        // convert to request
-        // return response
-        return ResponseEntity.ok("file path or something");
+    public ResponseEntity<FileDownloadResponse> download(@Validated @PathVariable String id) throws ProcessingException, FileNotFoundException {
+        FileDownloadRequest request = getFileDownloadRequest(id);
+        if (processingService.isProcessed(request)) {
+            // TODO test it
+            return ResponseEntity.ok(processingService.download(request));
+        }
+        // TODO handle the case when something went wrong
+        return ResponseEntity.ok(new FileDownloadResponse(id, "IN_PROGRESS", null));
     }
 
     private FileUploadRequest getFileUploadRequest(MultipartFile file) {
         return new FileUploadRequest(file);
+    }
+
+    private FileDownloadRequest getFileDownloadRequest(String id) {
+        return new FileDownloadRequest(id);
     }
 
 }
