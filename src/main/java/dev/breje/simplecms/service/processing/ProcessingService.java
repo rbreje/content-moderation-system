@@ -10,7 +10,7 @@ public interface ProcessingService {
 
     void addFileEntry(FileDownloadRequest request);
     
-    boolean isProcessed(FileDownloadRequest request) throws ProcessingException, FileNotFoundException;
+    boolean isProcessed(FileDownloadRequest request) throws FileNotFoundException;
 
     FileDownloadResponse download(FileDownloadRequest request);
 }

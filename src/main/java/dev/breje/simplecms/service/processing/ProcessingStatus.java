@@ -24,14 +24,22 @@ public enum ProcessingStatus {
         return status;
     }
 
-    public static ProcessingStatus from(String status) throws InvalidProcessingStatusException {
+    public static ProcessingStatus from(String status) {
         return Arrays.stream(values())
                 .filter(value -> value.getStatus().equalsIgnoreCase(status))
                 .findFirst()
                 .orElseThrow(() -> new InvalidProcessingStatusException("Unexpected status provided: " + status));
     }
-    
+
     public boolean isDone() {
         return this == DONE;
+    }
+
+    public boolean isNew() {
+        return this == NEW;
+    }
+
+    public boolean isInProgress() {
+        return this == IN_PROGRESS;
     }
 }

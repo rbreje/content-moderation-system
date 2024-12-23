@@ -1,5 +1,6 @@
 package dev.breje.simplecms;
 
+import dev.breje.simplecms.service.processing.CsvProcessor;
 import dev.breje.simplecms.service.storage.StorageProperties;
 import dev.breje.simplecms.service.storage.StorageService;
 import org.springframework.boot.CommandLineRunner;
@@ -17,10 +18,11 @@ public class ContentModerationSystemApplication {
     }
 
     @Bean
-    CommandLineRunner init(StorageService storageService) {
+    CommandLineRunner init(StorageService storageService, CsvProcessor csvProcessor) {
         return args -> {
             storageService.clear();
             storageService.init();
+            csvProcessor.run();
         };
     }
 

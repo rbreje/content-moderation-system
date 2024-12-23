@@ -26,17 +26,12 @@ public class SimpleProcessingService implements ProcessingService {
     }
 
     @Override
-    public boolean isProcessed(FileDownloadRequest request) throws ProcessingException, FileNotFoundException {
+    public boolean isProcessed(FileDownloadRequest request) throws FileNotFoundException {
         Optional<FileEntry> fileEntryOptional = fileEntryRepository.findByUuid(request.id());
         if (fileEntryOptional.isEmpty()) {
             throw new FileNotFoundException("The id couldn't be found.");
         }
-        FileEntry fileEntry = fileEntryOptional.get();
-        try {
-            return ProcessingStatus.from(fileEntry.getStatus()).isDone();
-        } catch (InvalidProcessingStatusException e) {
-            throw new ProcessingException("Something went wrong retrieving the file status.", e);
-        }
+        return ProcessingStatus.from(fileEntryOptional.get().getStatus()).isDone();
     }
 
     @Override

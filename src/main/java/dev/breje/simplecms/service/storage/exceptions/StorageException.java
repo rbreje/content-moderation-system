@@ -1,4 +1,4 @@
-package dev.breje.simplecms.service.storage;
+package dev.breje.simplecms.service.storage.exceptions;
 
 public class StorageException extends Exception{
 
