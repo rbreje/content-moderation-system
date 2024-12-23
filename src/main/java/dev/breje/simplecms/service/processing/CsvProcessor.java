@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @Service
-public class InputMessageProcessor implements Runnable {
+public class CsvProcessor implements Runnable {
 
     private final TranslationService translationService;
     private final ScoringService scoringService;
@@ -18,7 +18,7 @@ public class InputMessageProcessor implements Runnable {
     private ExecutorService executorService;
 
     @Autowired
-    public InputMessageProcessor(TranslationService translationService, ScoringService scoringService) {
+    public CsvProcessor(TranslationService translationService, ScoringService scoringService) {
         this.translationService = translationService;
         this.scoringService = scoringService;
         

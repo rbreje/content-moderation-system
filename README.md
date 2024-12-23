@@ -19,6 +19,10 @@ An app developed as a technical test with preconditions and specific requirement
 
 ![First Iteration](./Design/cms-architecture-v2.png)
 
+### Second Review
+
+![Second Iteration](./Design/cms-architecture-v3.png)
+
 ### API Endpoints
 
 ```
