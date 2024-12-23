@@ -6,8 +6,8 @@ import dev.breje.simplecms.dtos.FileUploadRequest;
 import dev.breje.simplecms.dtos.FileUploadResponse;
 import dev.breje.simplecms.service.processing.ProcessingService;
 import dev.breje.simplecms.service.processing.exceptions.FileNotFoundException;
-import dev.breje.simplecms.service.storage.exceptions.StorageException;
 import dev.breje.simplecms.service.storage.StorageService;
+import dev.breje.simplecms.service.storage.exceptions.StorageException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -37,11 +37,11 @@ public class ContentModerationController {
     }
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<FileDownloadResponse> download(@Validated @PathVariable String id) throws FileNotFoundException {
+    public ResponseEntity<Object> download(@Validated @PathVariable String id) throws FileNotFoundException, StorageException {
         FileDownloadRequest request = getFileDownloadRequest(id);
         if (processingService.isProcessed(request)) {
             // TODO test it
-            return ResponseEntity.ok(processingService.download(request));
+            return ResponseEntity.ok(storageService.download(request));
         }
         // TODO handle the case when something went wrong
         return ResponseEntity.ok(new FileDownloadResponse(id, "IN_PROGRESS", null));

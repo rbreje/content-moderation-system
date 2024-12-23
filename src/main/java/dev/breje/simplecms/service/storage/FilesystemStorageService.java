@@ -1,10 +1,14 @@
 package dev.breje.simplecms.service.storage;
 
+import dev.breje.simplecms.dtos.FileDownloadRequest;
 import dev.breje.simplecms.dtos.FileUploadRequest;
 import dev.breje.simplecms.dtos.FileUploadResponse;
 import dev.breje.simplecms.service.storage.exceptions.CannotWriteFileException;
 import dev.breje.simplecms.service.storage.exceptions.StorageException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ByteArrayResource;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.FileSystemUtils;
 
@@ -70,6 +74,17 @@ public class FilesystemStorageService implements StorageService {
             Files.write(destination, content.getBytes());
         } catch (IOException e) {
             throw new CannotWriteFileException("Couldn't write the output file.", e);
+        }
+    }
+
+    @Override
+    public Resource download(FileDownloadRequest request) throws StorageException {
+        String filename = request.id() + "-output.csv";
+        try {
+            Path source = this.rootLocation.resolve(Paths.get(filename)).normalize().toAbsolutePath();
+            return new ByteArrayResource(Files.readAllBytes(source));
+        } catch (IOException e) {
+            throw new StorageException("Couldn't load the output file.", e);
         }
     }
 }

@@ -1,1 +1,2001 @@
 user_id,message
+1,University of Szeged
+2,Curry College
+3,China Agricultural University
+4,Yasar University
+5,Universidad Miguel de Cervantes
+6,Aleksander Gieysztor School of Humanities in Pultusk
+7,Kunstakademie Düsseldorf.
+8,St.Kliment Ohridski University
+9,Fachhochschule St. Pölten
+10,Obafemi Awolowo University Ile-Ife
+11,Hampton College
+12,Dav University
+13,Parwan University
+14,University of Marketing and Distribution Sciences
+15,Pan Africa Christian University
+16,Bryn Mawr College
+17,European University at St.Petersburg
+18,Semnan University
+19,Kirchliche Hochschule Bethel
+20,Saito College
+21,Satakunta University Of Applied Scinces
+22,Universidad Salesiana de Bolivia
+23,Avicenna International College
+24,Seoul Women's University
+25,Jones College
+26,Sana'a University
+27,Universidade Catolica Portuguesa
+28,Mahachulalongkorn Buddhist University
+29,Ecole Nationale de la Statistique et de l'Analyse de l'information
+30,Moscow State University M.V. Lomonosov
+31,University of Management & Technology
+32,University of the Visayas
+33,Kanda University of International Studies
+34,Karelian State Pedagogical University
+35,Altai State Medical University
+36,Université de Cergy-Pontoise
+37,London Metropolitan University
+38,L'Université de l'Entreprise
+39,Stefan University
+40,Hanoi University of Science
+41,Okinawa Prefectural University of Fine Arts
+42,Occidental College
+43,Ulyanovsk State University
+44,"Benedictine University, Springfield College in Illinois"
+45,University of Foggia
+46,Janos Selye University
+47,Xuzhou Normal University
+48,"University of Virginia, College at Wise"
+49,Morioka College
+50,University of Bialystok
+51,Salem College
+52,Engineering Colleges in Tamil Nadu
+53,Belarussian State Polytechnical Academy
+54,Kanagawa Dental College
+55,Kurukshetra University
+56,National Taiwan University
+57,Universitas Merdeka Malang
+58,Indiana University of Pennsylvania
+59,Fushun Petroleum University
+60,South Valley University
+61,Maxim Gorky Institute of Literature
+62,Zayed University
+63,Oita University
+64,Queens College
+65,Fachhochschule Merseburg
+66,College of Notre Dame of Maryland
+67,Accra Polytechnic 
+68,Universidad Técnica Estatal de Quevedo
+69,San Francisco Conservatory of Music
+70,Universidad Interamericana
+71,Shah Abdul Latif University Khairpur
+72,Université de M'sila
+73,Florida Gulf Coast University
+74,Islamic University of Medinah
+75,Odense University
+76,Livingstone College
+77,Cheju National University of Education
+78,Regent International University
+79,Universidade Estadual do Oeste do Paraná
+80,Universidad Atlantida Argentina
+81,New York Institute of Technology
+82,People's University of Bangladesh
+83,Novosibirsk State Technical University
+84,Grinnell College
+85,Saskatchewan Indian Federated College
+86,International College of Tourism and Hotel Management
+87,International Theravada Buddhist Missionary University
+88,"CollegeAmerica, Denver"
+89,Technical University of Gdansk
+90,Petro Mohyla Black Sea State University
+91,Gurukula Kangri University
+92,Beijing Foreign Studies University
+93,Ulaanbaatar University
+94,American University of Tirana
+95,Shokei College
+96,University of Wisconsin - Stevens Point
+97,Escola Superior de Artes e Design
+98,Institut Sains dan Teknologi Al Kamal
+99,Odessa National Polytechnic University
+100,Popakademie Baden-Württemberg
+101,Kanagawa Institute of Technology
+102,Astrakhan State University
+103,Aarhus School of Business
+104,Wentworth Institute of Technology
+105,Wilbur Wright College
+106,Hanoi National Economics University
+107,Morehouse School of Medicine
+108,Holy Spirit University of Kaslik
+109,"Hogeschool voor Wetenschap en Kunst (VLEKHO), Brussel"
+110,Turku School of Economics and Business Administration
+111,Delijan Payame Noor University
+112,"Physical Education Academy ""Jedrzej Sniadecki"" in Gdansk"
+113,Rostov State University
+114,Universitas Airlangga
+115,Open University of Sri Lanka
+116,Oral Roberts University
+117,Ecole Polytechnique Marseille
+118,New England Conservatory of Music
+119,Mamasani University of Technology
+120,Banking University of Ho Chi Minh City
+121,Warner Pacific College
+122,University of Moncton
+123,Silver Lake College
+124,Free University Stockholm
+125,Pacific Union College
+126,New England Institute of Technology
+127,Maharshi Dayanand Sarswati University Ajmer
+128,Balochistan University of Information Technology & Management Sciences 
+129,Osaka University
+130,University of Silesia
+131,"Johns Hopkins University, SAIS Bologna Center"
+132,Wheeling Jesuit University
+133,Moscow University Touro
+134,University of Joensuu
+135,Universidad de Santiago de Chile
+136,Georgia Southern University
+137,Universidad para la Cooperación Internacional
+138,Academy of Public Administration of Belarus
+139,"Universidad de Puerto Rico, Aguadilla"
+140,Mekelle Institute of Technology
+141,West Bengal University of Technology
+142,College of Mount St. Vincent
+143,Ateneo de Davao University
+144,Universidad del Cine - Buenos Aires
+145,Universiti Tenaga Nasional
+146,Saitama University
+147,Université de l'Uélé
+148,Nirma University
+149,Kano State University of Technology Wudil
+150,Houston Baptist University
+151,Pennsylvania Academy of the Fine Arts
+152,Tunku Abdul Rahman Chinese College
+153,Oberlin College
+154,Hanzehogeschool Groningen
+155,"St. Francis College, Loretto"
+156,Universidad del Mar
+157,Global University
+158,State University of New York College at Cortland
+159,European Management Center Paris
+160,"Rasmussen College, Florida Campuses"
+161,Upper Nile University
+162,Brandeis University
+163,Brown University
+164,Ohio State University - Newark
+165,Université de Béjaia
+166,Technische Universität München
+167,Kharkiv National University
+168,Sage Graduate School
+169,Moscow State University of Environmental Engineering
+170,Langston University
+171,Columbia Southern University
+172,"Universidad de Bogotá ""Jorge Tadeo Lozano"""
+173,Universidade Federal do Paraná
+174,Oklahoma State University Center for Health Sciences
+175,Hochschule Bremerhaven
+176,Tashkent Pharmaceutical Institute
+177,Volgograd State Pedagogical University
+178,University of Connecticut at Hartford
+179,Bellevue University
+180,Universitas Paramadina Mulya
+181,Universidade Católica de Pelotas
+182,University of Resita
+183,Odessa State Medical University
+184,Otsuma Women's University
+185,Universidad Francisco de Paula Santander
+186,Ecole Supérieure des Sciences et Technologie de l'Ingénieur de Nancy
+187,University of Insurance and Banking in Warsaw
+188,Universidade de Nova Iguaçu
+189,Universidad Federico Henríquez y Carvajal
+190,University of Management and Marketing
+191,Dallas Baptist University
+192,Yazd Medical University
+193,Université Nancy II
+194,Newberry College
+195,Shaheed Beheshti University
+196,Universidade Salgado de Oliveira
+197,National Law School of India University
+198,Université de Sfax
+199,Universidade Independente
+200,Silesian Technical University of Gliwice
+201,"International School of New Media, University of Lübeck"
+202,Russian State Hydrometeorological University
+203,Macquarie University
+204,Universidad Nacional de General San Martín
+205,State University of New York Health Sience Centre Syracuse
+206,Amber University
+207,Thamar University
+208,Vologda State Pedagogical University
+209,University of Victoria
+210,Kokushikan University
+211,Toyama University of International Studies
+212,Universidad de San Pedro Sula
+213,University of East Asia
+214,Universidad de San Pablo CEU
+215,Arak University of Technology
+216,Morehouse College
+217,University of Cincinnati
+218,Amman University
+219,Athens University of Economics and Business
+220, Université de Nouakchott
+221,Crichton College
+222,Houdegbe North American University Benin
+223,Greenford International University
+224,Technological University (West Yangon)
+225,Universidad San Francisco Xavier
+226,University of Benghazi
+227,Universitas Negeri Padang
+228,North-West State Technical University
+229,"Institute of Teachers Education, Kota Bharu"
+230,Multnomah Bible College
+231,Université de Ziguinchor
+232,Kwantleen University College
+233,Hochschule Esslingen
+234,Zanjan Institute for Advanced Studies in Basic Sciences
+235,Guizhou University
+236,Mother Teresa Women's University
+237,Keimyung University
+238,Lincoln University Pennsylvania
+239,Aga Khan University
+240,Immanuel Kant State University of Russia
+241,Chapman University
+242,Universidad de Cádiz
+243,CETYS Universidad
+244,Universidad Nacional de Tumbes
+245,Ittihad Private University
+246,Coppin State College
+247,Perak Islamic College
+248,Ecole Supérieure d'Ingénieurs et de Techniciens pour l'Agriculture
+249,Virginia Commonwealth University
+250,Pomor State University
+251,National University of Uzbekistan
+252,Universidade Federal da Paraíba
+253,Universidad Mariana
+254,National Chi Nan University
+255,City University
+256,University of Arkansas for Medical Sciences
+257,International School of Management
+258,Universidad de Caldas
+259,University of Aleppo
+260,Jubail University College
+261,Gazi University Ankara
+262,Amherst College
+263,University of the Philippines Los Banos
+264,Buena Vista University
+265,St. Mary's University of San Antonio
+266,Ege University
+267,Wellesley College
+268,Ningxia University
+269,University of the Punjab
+270,Miles College
+271,University of Burao
+272,International Bible College
+273,Universidad Nacional de Quilmes
+274,Yantai University
+275,Shenyang Institute of Chemical Technology
+276,Plekhanov Russian Academy of Economics
+277,St. Louis University
+278,Kampala International University
+279,Athlone Institute of Technology
+280,College of Technology at Dammam
+281,Western Oregon University
+282,Universidad Hispanoamericana
+283,Cranbrook Academy of Art
+284,Atlantic Union College
+285,Kathmandu University
+286,Korea National Open University
+287,Transylvania University
+288,Southern California College
+289,Rochester College
+290,Bradley University
+291,Caritas University
+292,"Universidad ""Adolfo Ibañez"""
+293,Trinity College of Florida
+294,Universitas Sebelas Maret
+295,Fontys University of Applied Sciences
+296,Vancouver Community College
+297,Kitakyushu University
+298,Chongqing Wenli University
+299,International Christian University
+300,Alabama Agricultural and Mechanical University
+301,Novgorod State University
+302,Xinjiang University of Finance and Economics
+303,Kyrgyz National Agrarian University
+304,Claremont Graduate University
+305,Sampurnanand Sanskrit University
+306,Kandahar University
+307,University of Groningen
+308,Donau-Universität Krems
+309,Universidad Pedagógica y Tecnológica de Colombia
+310,Xi'an University of Electronic Science and Technology
+311,Hochschule für Technik und Wirtschaft Dresden (FH)
+312,Oakland City University
+313,National University of Computer & Emerging Sciences
+314,University of NorthWest
+315,International School of Management in Prešov
+316,Gokhale Institute of Politics and Economics
+317,Al Madinah International University
+318,Bethune-Cookman College
+319,Bloomfield College
+320,Universidad Politécnica de Madrid
+321,Rostov State University
+322,Université Catholique de Bukavu
+323,Universidad Autónoma de Chiapas
+324,"British Institute in Paris, University of London"
+325,Katholische Fachhochschule Berlin (KFB)
+326,Kakatiya University
+327,University of the City of Manila
+328,Université de Technologie de Compiègne
+329,Appalachian Bible College
+330,Abu Dhabi University
+331,Facultés Universitaires Catholiques de Mons
+332,University of Gdansk
+333,University of the Sunshine Coast
+334,Athens Laboratory of Business Administration (ALBA)
+335,Royal Melbourne Institute of Technology
+336,Andon College - Modesto
+337,Grantham University
+338,Ecole Nationale Supérieur des Ingénieur des Etudes et Techniques d'Armement
+339,University of Botswana
+340,South University of Science and Technology of China 
+341,The Federal Polytechnic Offa
+342,Universidad Nacional Autónoma de México
+343,Srinakharinwirot University
+344,Universidade do Sagrado Coração
+345,Katholieke Universiteit Leuven
+346,Dammam Community College
+347,Zhejiang University of Technology
+348,Ho Chi Minh City University of Law
+349,Inner Mongolia Normal University
+350,Universidad de Magallanes
+351,Universidad Nacional Pedro Ruíz Gallo
+352,People's University of Bangladesh
+353,Universität Leipzig
+354,Hiroshima Jogakuin University
+355,Sylhet Engineering College
+356,Cumberland University
+357,Iniciativa Universidad del Atlantico
+358,University of Lucerne
+359,Université de la Polynésie Française
+360,"Islamic Azad University, Tehran South"
+361,Indiana University of Pennsylvania
+362,University of Detroit Mercy
+363,Hakuoh University
+364,Fachhochschule Koblenz
+365,Ajman University of Science & Technology
+366,Universidad Autonoma  de Durango
+367,Shizuoka Sangyo University
+368,Smith College
+369,John F. Kennedy University
+370,King Fahd Security College
+371,Université Mohammed V - Agdal
+372,William Jewell College
+373,University of Alaska - Fairbanks
+374,Christian Theological Academy in Warszaw
+375,European University at St.Petersburg
+376,Daido Institute of Technology
+377,Amity University
+378,Fachhochschule für die Wirtschaft
+379,"Rasmussen College, Minnesota Campuses"
+380,Ruhr-Universität Bochum
+381,Centre Universitaire de Technologie
+382,"Institute of Teachers Education, Kota Bharu"
+383,Universidad Catolica de La Santísima Concepción
+384,Universidad Mayor de San Simón
+385,Business School Lausanne (BSL)
+386,Pennsylvania College of Optometry
+387,Universidad Central de Las Villas
+388,Misr University for Sience and Technology
+389,Anton de Kom University
+390,St. Petersburg StateMechnikov  Medical Academy
+391,Full Sail University
+392,"Taylor University, Fort Wayne Campus"
+393,Pamukkale University
+394,University of the Immaculate Conception
+395,Tokyo Women's College of Physical Education
+396,Université Pierre Mendes-France (Grenoble II)
+397,Hiroshima University of Economics
+398,Universidad Tecnológica del Peru
+399,Al-Quds University - The Arab University in Jerusalem
+400,Musashino Women's University
+401,Jawaharlal Nehru Centre for Advanced  Scientific Research
+402,College of Busniess Admnistration
+403,Chia Nana College of Pharmacy and Science
+404,Université Notre Dame d'Haïti
+405,Moscow State University of Railway Transport
+406,"Institut d'Agriculture, de Technologie et d'Education de Kibungo"
+407,Universitas Nasional Jakarta
+408,Technological University (Meikhtila)
+409,University of Indianapolis
+410,Southern California College of Optometry
+411,St. Petersburg State Agrarian University
+412,International Institute for Geo - Information Science and Earth Observation
+413,Universitas Komputer Indonesia
+414,Cyprus College
+415,Gemological Institute of America
+416,Korea National University of Arts
+417,"Politécnico Columbiano ""Jaime Isaza Cadavid"""
+418,University of Houston
+419,Lagos State University
+420,Technical Institute of Dubnica in Dubnica nad Váhom
+421,Morehouse College
+422,Universidad San Pablo
+423,Colorado School of Mines
+424,Fielding Institute
+425,National Academy of Fine Arts
+426,Higashi Nippon International University
+427,Takasaki City University of Economics
+428,Australian Lutheran College
+429,Claremont Lincoln University
+430,Louisiana State University at Eunice
+431,Evangel University
+432,Kabul Medical University
+433,Fachhochschule Neubrandenburg
+434,Urmia University of Technology
+435,Continental Theological Seminary
+436,Kamalolmolk Art & Architecture Higher Education Institute of Noshahr
+437,Instituto Superior de Ciências Empresariais e de Turismo
+438,University of Kirkuk
+439,Universidad Técnica de Ambato
+440,Hanazono University
+441,National Institute of Development Administration
+442,Presidency University
+443,Briar Cliff College
+444,Bangladesh Agricultural University
+445,Tallinn University
+446,Freed-Hardeman University
+447,Pennsylvania Institute of Technology
+448,Technische Universität Bergakademie Freiberg
+449,Katholieke Hogeschool Limburg
+450,Nara Medical University
+451,Asian Medical Institute
+452,Toyota Technological Institute
+453,University Institute of Architecture Venice
+454,"Islamic Azad University, Falavarjan "
+455,Miles College
+456,Istanbul University
+457,Haynal Imre University of Health Sciences Budapest
+458,Universidad Nacional del Littoral
+459,Universidad de Celaya
+460,Tartu Health Care College
+461,Ewha Women's University
+462,Elmergib University
+463,San Francisco State University
+464,Moraine Valley Community College
+465,Wright State University
+466,Luther College
+467,"National American University, Albuquerque"
+468,Upper Iowa University
+469,Universidad Nacional Abierta y a Distancia
+470,Hebei United University
+471,Universidad Católica de Santiago del Estero
+472,Iniciativa Universidad del Atlantico
+473,NTB Interstate University of Applied Sciences of Technology
+474,Northern Arizona University
+475,University of Leeds
+476,McMurry University
+477,University of Petrosani
+478,Visvesvaraya Technological University
+479,Engineering Colleges in Tamil Nadu
+480,Université Mentouri Constantine
+481,Ateneo de Naga University
+482,Fachhochschule Vorarlberg
+483,Suwon University
+484,City University
+485,Universidad Madero
+486,Warner Southern College
+487,Middle East University
+488,Institut des Sciences de l'Ingénieur de Clermont-Ferrand
+489,Universidade Estadual de Santa Cruz
+490,Fachhochschule Jena
+491,Mount Marty College
+492,University of Tampa
+493,Lithunian Institute of Physical Education
+494,Jilin University of Technology
+495,LungHwa University of Science and Technology
+496,Technische Universität Hamburg-Harburg
+497,Lakehead University
+498,Ecole Supérieure des Sciences Commerciales d'Angers
+499,Université de Marne la Vallée
+500,Toyo University
+501,William Mitchell College of Law
+502,Universidade Veiga de Almeida
+503,Instituto Politécnico da Guarda
+504,United States Naval Academy
+505,Ulsan University
+506,Abdus Salam international centre for theoretical physics
+507,Jeonju University
+508,Universidade Católica de Brasília
+509,Kansas State University
+510,"University of St. Thomas, Houston"
+511,Universitat Pompeu Fabra
+512,Pennsylvania Institute of Technology
+513,Udmurt State University
+514,Bar-Ilan University
+515,University of Texas at El Paso
+516,Fukui University
+517,"De La Salle University, Araneta"
+518,Central Philippine University
+519,Ondokuz Mayis University Samsun
+520,San Francisco Conservatory of Music
+521,Universidade Cruzeiro do Sul
+522,Austin College
+523,Heilongjiang University
+524,Iasar University
+525,Sebatian Kolowa University College
+526,National College for Medical and Technical Studies
+527,Sacred Heart University
+528,"Cleveland Chiropractic College, Los Angeles"
+529,University of Central Oklahoma
+530,Technological University (Hmawbi)
+531,Aichi University of Education
+532,Tiffin University Prague
+533,Universidad de Guanajuato
+534,University of Kent at Canterbury
+535,Dokkyo University School of Medicine
+536,Hanoi University of Science
+537,STMIK Sinar Nusantara
+538,University of Wamia and Masuria in Olsztyn
+539,Taipei Municipal Teachers College
+540,Franciscan University of Steubenville
+541,Nippon Sport Science University
+542,Azerbaijan University
+543,Morrison College
+544,American International University West Africa
+545,"Islamic Azad University, Semnan"
+546,University of Trnava
+547,Universidade Regional de Blumenau
+548,Universidad Autónoma de Manizales
+549,Seinan Gakuin University
+550,"University Center ""César Ritz"""
+551,Northwestern University In Qatar
+552,Capitol College
+553,European Open University
+554,Cecos Univeristy of Information Technology
+555,Academia de Studii Economice din Bucuresti
+556,Wilberforce University
+557,Sapporo Medical University
+558,Lincoln University
+559,Gordon Conwell Theological Seminary
+560,KBU International College
+561,Universidad Privada Los Andes
+562,Guizhou University
+563,"Rasmussen College, Illinois Campuses"
+564,"Indian Institute of Management, Tiruchirappalli"
+565,University of Memphis
+566,Perm State Pedagogical University
+567,Tiffin University
+568,Catholic University of Eastern Africa
+569,St. Mary's University
+570,Universität für künstlerische und industrielle Gestaltung Linz
+571,Preston Institute of Management Sciences and Technology (PIMSAT)
+572,Georgia Southern University
+573, Dedan Kimathi University of Technology
+574,Tuskegee University
+575,Texas Christian University
+576,Universitas Madura
+577,College of Aeronautics
+578,Université de Picardie Jules-Verne
+579,Capilano College
+580,Avinashilingam Institute for Home Science and Higher Education for Women
+581,Palestine Technical College-Dier Elbalah
+582,Our Lady of Holy Cross College
+583,Southern University Bangladesh
+584,St. Petersburg State Chemical Pharmaceutical Academy
+585,University of Teramo
+586,Kharkiv State Transport Technical University
+587,Lithunian Veterinary Academy
+588,Ehime University
+589,New England College
+590,Universidade Salvador
+591,Sumgait State University
+592,Central University for Nationalities
+593,Kanagawa Dental College
+594,Al Mamon University College
+595,Universidad Central Dominicana de Estudio Profesionales
+596,Cochin University of Science and Technology
+597,Baylor University
+598,Universidad Femenina del Sagrado Corazón
+599,Universidad Franco-Mexicana
+600,University of Cincinnati
+601,Kasetsart University
+602,Institut National des Postes et Télécommunications
+603,Universitas Kristen Krida Wacana
+604,University of El Imam El Mahdi University
+605,Hanazono University
+606,Universidad Simón Bolivar
+607,"University of Moncton, Edmundston"
+608,Karlshochschule International University
+609,University of Canterbury
+610,Universidad de San Buenaventura Medellin
+611,Technological Education Institute of Mesologgi
+612,Valley Forge Christian College
+613,Aga Khan University
+614,Dublin Institute for Advanced Studies
+615,Université de Tunis
+616,Universidad de La Habana
+617,Hirosaki University
+618,Karnatak University
+619,Beijing University of Science and Technology
+620,Liverpool Hope University College
+621,Universitas Lancang Kuning
+622,Universitas 17 Agustus 1945 Samarinda
+623,University of Kufa
+624,Zhongnan University of Finance and Economics
+625,Marathwada Agricultural University
+626,Darul Takzim Institute of Technology
+627,Adeyemi College of Education
+628,Georgetown University
+629,PSG College of Technology
+630,Hogere Zeevaartschool - Maritime Academy
+631,University of Kelaniya
+632,University of Arkansas at Fayetteville
+633,Firat (Euphrates) University
+634,Longwood College
+635,Sri Ramachardra Medical College and Research Institute
+636,Wenzhou University
+637,International Islamic College of Penang
+638,Fiji School of Medicine
+639,St. Petersburg State Conservatory
+640,Shorter College
+641,Patuakhali Science and Technology University
+642,East West University
+643,Emory & Henry College
+644,Anhui University of Finance and Economics
+645,University of Nebraska Medical Center
+646,Universite Amadou Hampaté Ba
+647,Universitas HKBP Nommensen
+648,Nuclear Institute for Agriculture and Biology (NIAB)
+649,University of Petroleum (East China)
+650,Vinoba Bhave University
+651,International University of Business Agriculture and Technology
+652,Morris Brown College
+653,Kwantleen University College
+654,Notre Dame University
+655,University of Perpetual Help
+656,Brigham Young University
+657,Abfi Institute Perbanas Jakarta
+658,University of Chicago
+659,Universidade Federal de Minas Gerais
+660,"Universitatea de Vest ""Vasile Goldi&#351;"" "
+661,Baltic State Technical University
+662,Pontifícia Universidade Católica de São Paulo
+663,College of Technology at Kharj
+664,University of Southampton
+665,Art Institute of Charlotte
+666,Tshwane University of Technology
+667,Medizinische Universität Wien
+668,Guru Gobind Singh Indraprastha University
+669,Fachhochschule Düsseldorf
+670,Fairmont State College
+671,University of South Carolina - Union
+672,Medical College of Georgia
+673,Al Mansour University College
+674,Palm Beach Atlantic University
+675,University of Negros Occidental-Recoletos
+676,Université de Gafsa
+677,Universidad Alberto Hurtado
+678,Technion - Israel Institute of Technology
+679,Universidad Popular del Cesar
+680,Shomal University
+681,Blue Nile University
+682,Eurasia International University
+683,Medical University of Sofia
+684,Shanghai International Studies University
+685,Atlantic International University
+686,Kobe Shoin Women's University
+687,Bennett College
+688,University of Southampton
+689,Carnegie Mellon University
+690,Augustana College
+691,McKendree College
+692,Philadelphia College of Osteopathic Medicine
+693,Eckerd College
+694,Tokyo Medical College
+695,Virginia Commonwealth University
+696,Kongju National University
+697,Medizinische Universität Wien
+698,Humboldt Universität Berlin
+699,Kebbi State University of Science and Technology
+700,"Royal Danish Academy of Fine Arts, School of Visual Art"
+701,"Universidad de Puerto Rico, Mayaguez"
+702,Sami Shamoon College of Engineering
+703,Marij State Technical University
+704,East China Jiao Tong University
+705,City University Programs in Bulgaria 
+706,Ecole Nationale Supérieure des Mines de Nancy
+707,Aichi Bunkyo University
+708,Virginia College
+709,Sheridan College
+710,Tumaini University - Iringa University College
+711,Acdemic Center for Law and Business
+712,Castleton State College
+713,Kyonggi University
+714,Beijing University of Chinese Medicine and Pharmacology
+715,Ecole Centrale de Lille
+716,Vilnius Pedagogical University
+717,Messiah College
+718,York University
+719,Instituts Supérieurs de Formation des Maîtres
+720,University of Economics Varna
+721,Gwangju Catholic College
+722,Athens School of Fine Arts
+723,Texas A&M University - Texarkana
+724,University of Groningen
+725,"University of California, San Diego"
+726,Universitas Muslim Indonesia
+727,Balikesir University
+728,Ecole des Hautes Etudes Commerciales MAROC
+729,University of Maiduguri
+730,Purbanchal University
+731,Shomal University
+732,Technical University of Koszalin
+733,Johns Hopkins University
+734,University of the Philippines Diliman
+735,Western Governors University
+736,Columbus University
+737,Fomic Polytechnic
+738,Banaras Hindu University
+739,Moraine Valley Community College
+740,Mount Kenya University
+741,Gonzaga University
+742,Sohag University
+743,Abasyn University Peshawar
+744,University College Cork
+745,"Universidad Latinoamericana de Ciencia y Tecnologia, Panamá"
+746,Nicholls State University
+747,Soka University
+748,Cyberjaya University College of Medical Science
+749,"Institut National de la Recherche Scientifique, Université du Québec"
+750,Universidad Fermin Toro
+751,Addis Ababa Science & Technology University
+752,Katholische Fachhochschule Berlin (KFB)
+753,Cape Coast Polytechnic 
+754,Arab American University - Jenin
+755,Deylaman Institute of Higher Education
+756,Iranian Academy of Persian Language and Literature
+757,Moldova Technical University
+758,Ferris State University
+759,Moraine Valley Community College
+760,Uzbek State World Languages University
+761,University College Bahrain
+762,Great Zimbabwe University
+763,IDRAC (Institut de recherche en action commerciale)
+764,Honam University
+765,University of Illinois at Chicago
+766,Universidade Ibirapuera
+767,Vaasa University of Applied Sciences
+768,Assumption College
+769,Universidade Federal do ABC
+770,Nicholls State University
+771,Foundation University
+772,Ecole Supérieure de Commerce de Sophia Antipolis
+773,Universidad Autónoma de Occidente
+774,Universidad del Aconcagua
+775,Bidhan Chandra Agricultural University
+776,Aquinas College
+777,Lake Forest College
+778,Koriyama Women's University and College
+779,Southwest Missouri State University
+780,Universitas Bakrie
+781,Inner Mongolia Polytechnic University
+782,Athens University of Economics and Business
+783,State University of Aerospace Technologies
+784,Ecole Nationale Supérieure d'Ingénieurs de Génie Chimique
+785,University of Tennessee - Martin
+786,Hokkaido Information University
+787,University of Eastern Philippines
+788,Vassar College
+789,Baitulmal Management Institute (IPB)
+790,Katharine Gibbs School
+791,Siebold University of Nagasaki
+792,University of Malakand
+793,Voronezh State Academy of Technology
+794,Otemae University
+795,Hamline University
+796,Merlimau Polytechnic
+797,Technical University of Opole
+798,Fudan University
+799,Moscow State University of Environmental Engineering
+800,Sinnar University
+801,Liaocheng Teachers University
+802,Occidental College
+803,Pomorsk State University
+804,Messiah College
+805,Ecole Supérieure de Commerce de Nantes-Atlantique
+806,Azad Jammu and Kashmir University
+807,Kota Bharu Polytechnic
+808,Banaras Hindu University
+809,Ferrum College
+810,Swiss Business School Zurich (SBS)
+811,NHTV Breda University of Professional Education
+812,Rajarata University of Sri Lanka
+813,Irbid National University
+814,Universidad Politécnica de Madrid
+815,Kandahar University
+816,University of Economics in Bratislava
+817,Kyoto Seika University
+818,St. Petersburg State University of Technology and Design
+819,University of Veterinary Medicine in Kosice
+820,University of Teramo
+821,Universidad de Oriente
+822,Nepal Sanskrit University
+823,Forest Research Institute Dehradun
+824,University of Reggio Calabria
+825,Politeknik Negeri Sambas
+826,University of Art and Design Cluj-Napoca
+827,ITT Technical Institute Indianapolis
+828,Allegheny College
+829,Southeast University
+830,Universidad Católica Nordestana
+831,Universidad de La Habana
+832,Universidad de las Américas (ULAM)
+833,Xi'an University of Architecture and Technology
+834,Institut Teknologi Adhi Tama Surabaya
+835,Dominica State College
+836,Fomic Polytechnic
+837,Fukuyama Heisei University
+838,Universidad Autónoma del Caribe
+839,Shaheed Zulifkar Ali Bhutto Institute of Science and Technology
+840,Universitas Mataram
+841,Newberry College
+842,Regent International University
+843,University of Dubuque
+844,University of Arkansas at Little Rock
+845,University of Macedonia
+846,Deccan College Postgraduate and Research Institute
+847,Kobe City University of ForeignStudies
+848,Asahikawa University
+849,Gediz University
+850,Turin Polytechnic University In Tashkent
+851,International Budo University
+852,Universidad San Ignacio de Loyola
+853,San Diego University for Integrative Studies
+854,"College of Science, Baghdad University"
+855,Batchelor Institute of Indigenous Tertiary Education
+856,"Veliko Turnovo University ""Cyril and Methodius"""
+857,Southern Cross University
+858,Wuhan Technical University of Surveying and Mapping
+859,Trinity Bible College
+860,Kansai Gaidai University
+861,Hanoi University of Science & Technology
+862,Renmin University of China
+863,Pädagogische Hochschule Weingarten
+864,Indian Agricultural Research Institute
+865,Banasthali University
+866,Central Police University
+867,Nova Southeastern University
+868,Christendom College
+869,Fundación Universitaria del Area Andina. Sede Pereira
+870,Misr International University
+871,Musashino Art University
+872,George Brown College
+873,Western New England College
+874,Stillman College
+875,University of Pretoria
+876,Boise State University
+877,Fachhochschule Bingen
+878,Urmia University
+879,Lingnan University
+880,Shandong University
+881,Dimocritus University of Thrace
+882,University of Trento
+883,University of Osijek
+884,California School of Professional Psychology - Berkley/Alameda
+885,Hochschule für Philosophie München
+886,International Centre for Isclamic Science
+887,Tokushima Bunri University
+888,Millsaps College
+889,Central University of Finance and Economics
+890,Academy of Public Administration
+891,Institucion Universitaria de Envigado
+892,Tamil Nadu Agricultural University
+893,Gezira College of Technology
+894,University of Technology Phnom Penh
+895,Baitulmal Management Institute (IPB)
+896,Northwest University
+897,Auchi Polytechnic
+898,International University of Novi Pazar
+899,Universitas Krisnadwipayana
+900,Central State University
+901,"Arkansas State University, Newport"
+902,Hellenic Open University
+903,Moscow State University of Environmental Engineering
+904,Shahed University
+905,Mizan Tepi University
+906,University of Macedonia
+907,University of Sadat City
+908,Korea National Open University
+909,Ganja State University 
+910,Hellenic Army Academy
+911,Trinity Theological Seminary
+912,Dhurakijpundit University
+913,University of Italian Studies for Foreigners of Perugia
+914,"Kunsthochschule Berlin-Weissensee, Hochschule für Gestaltung "
+915,Minsk Institute of Management
+916,International Centre for Isclamic Science
+917,SRM Institute Of Science & Technology ( Deemed University)
+918,Hartwick College
+919,Kadir Has University
+920,Bule Hora  University
+921,Fachhochschule Krems
+922,International Institute for Population Sciences
+923,University of Connecticut at Avery Point
+924,Salem Teikyo University
+925,Scott Christian University
+926,Baker College of Auburn Hills
+927,Clark University
+928,Hai Duong University
+929,Sebha University
+930,Pontificia Università della Santa Croce
+931,Binus University
+932,Polytechnic Institute of Turin
+933,University School of Physical Education
+934,International University of Kagoshima
+935,Grove City College
+936,Indian Institute of Information Technology
+937,Adiban Higher Education Institue
+938,"Institute of Teachers Education, Technical Education "
+939,Siberian State Medical University
+940,Ionian University Corfu
+941,University of San Francisco
+942,Institut d'Etudes Politiques de Bordeaux
+943,Elmhurst College
+944,Lawrence University
+945,Minot State University
+946,College for Lifelong Learning
+947,Academy of Economics in Wroclaw
+948,Georgetown University
+949,Warsaw School of Economics
+950,Shih Chien University
+951,Regent University
+952,Assumption University of Thailand
+953,Fachhochschule Salzburg
+954,National College for Medical and Technical Studies
+955,Union College Nebraska
+956,Noakhali University of Science and Technology
+957,Rock Valley College
+958,Tama Art University
+959,Voronezh State University
+960,King Fahd Security College
+961,Mount Olive College
+962,"South-West University ""Neofit Rilski"""
+963,Freed-Hardeman University
+964,"Islamic Azad University, Tehran Science & Research Branch"
+965,Universidad Privada Antenor Orrego
+966,Claremont Graduate University
+967,Hodeidah University
+968,Governors State University
+969,Galway Mayo Institute of Technology
+970,Northeastern State University
+971,Portland Community College
+972,Pitzer College
+973,Fachhochschule Krems
+974,Rider University
+975,"Shobhit University, Meerut"
+976,National University of Rwanda
+977,Kurume University
+978,Kano State University of Technology Wudil
+979,Warsaw School of Information Technology
+980,The Master's College
+981,Ecole Nationale Supérieure des Industries Chimiques de Nancy
+982,RKDF University
+983,University of Engineering and Technology Taxila
+984,University of Crete
+985,Aichi Bunkyo University
+986,Ontario College of Art and Design
+987,Tata Institute of Social Sciences
+988,Gokhale Institute of Politics and Economics
+989,Centro Universitário Claretiano
+990,Colby-Sawyer College
+991,Tula State University
+992,State University of New York College at Oneonta
+993,Kwansei Gakuin University
+994,Universidad de San Andres
+995,Ahfad University for Women
+996,Instituto Politécnico de Lisboa
+997,Okayama University
+998,Yerevan Haibusak University
+999,"California State University, San Bernadino"
+1000,National Tsinghua University
+1,University of Szeged
+2,Curry College
+3,China Agricultural University
+4,Yasar University
+5,Universidad Miguel de Cervantes
+6,Aleksander Gieysztor School of Humanities in Pultusk
+7,Kunstakademie Düsseldorf.
+8,St.Kliment Ohridski University
+9,Fachhochschule St. Pölten
+10,Obafemi Awolowo University Ile-Ife
+11,Hampton College
+12,Dav University
+13,Parwan University
+14,University of Marketing and Distribution Sciences
+15,Pan Africa Christian University
+16,Bryn Mawr College
+17,European University at St.Petersburg
+18,Semnan University
+19,Kirchliche Hochschule Bethel
+20,Saito College
+21,Satakunta University Of Applied Scinces
+22,Universidad Salesiana de Bolivia
+23,Avicenna International College
+24,Seoul Women's University
+25,Jones College
+26,Sana'a University
+27,Universidade Catolica Portuguesa
+28,Mahachulalongkorn Buddhist University
+29,Ecole Nationale de la Statistique et de l'Analyse de l'information
+30,Moscow State University M.V. Lomonosov
+31,University of Management & Technology
+32,University of the Visayas
+33,Kanda University of International Studies
+34,Karelian State Pedagogical University
+35,Altai State Medical University
+36,Université de Cergy-Pontoise
+37,London Metropolitan University
+38,L'Université de l'Entreprise
+39,Stefan University
+40,Hanoi University of Science
+41,Okinawa Prefectural University of Fine Arts
+42,Occidental College
+43,Ulyanovsk State University
+44,"Benedictine University, Springfield College in Illinois"
+45,University of Foggia
+46,Janos Selye University
+47,Xuzhou Normal University
+48,"University of Virginia, College at Wise"
+49,Morioka College
+50,University of Bialystok
+51,Salem College
+52,Engineering Colleges in Tamil Nadu
+53,Belarussian State Polytechnical Academy
+54,Kanagawa Dental College
+55,Kurukshetra University
+56,National Taiwan University
+57,Universitas Merdeka Malang
+58,Indiana University of Pennsylvania
+59,Fushun Petroleum University
+60,South Valley University
+61,Maxim Gorky Institute of Literature
+62,Zayed University
+63,Oita University
+64,Queens College
+65,Fachhochschule Merseburg
+66,College of Notre Dame of Maryland
+67,Accra Polytechnic 
+68,Universidad Técnica Estatal de Quevedo
+69,San Francisco Conservatory of Music
+70,Universidad Interamericana
+71,Shah Abdul Latif University Khairpur
+72,Université de M'sila
+73,Florida Gulf Coast University
+74,Islamic University of Medinah
+75,Odense University
+76,Livingstone College
+77,Cheju National University of Education
+78,Regent International University
+79,Universidade Estadual do Oeste do Paraná
+80,Universidad Atlantida Argentina
+81,New York Institute of Technology
+82,People's University of Bangladesh
+83,Novosibirsk State Technical University
+84,Grinnell College
+85,Saskatchewan Indian Federated College
+86,International College of Tourism and Hotel Management
+87,International Theravada Buddhist Missionary University
+88,"CollegeAmerica, Denver"
+89,Technical University of Gdansk
+90,Petro Mohyla Black Sea State University
+91,Gurukula Kangri University
+92,Beijing Foreign Studies University
+93,Ulaanbaatar University
+94,American University of Tirana
+95,Shokei College
+96,University of Wisconsin - Stevens Point
+97,Escola Superior de Artes e Design
+98,Institut Sains dan Teknologi Al Kamal
+99,Odessa National Polytechnic University
+100,Popakademie Baden-Württemberg
+101,Kanagawa Institute of Technology
+102,Astrakhan State University
+103,Aarhus School of Business
+104,Wentworth Institute of Technology
+105,Wilbur Wright College
+106,Hanoi National Economics University
+107,Morehouse School of Medicine
+108,Holy Spirit University of Kaslik
+109,"Hogeschool voor Wetenschap en Kunst (VLEKHO), Brussel"
+110,Turku School of Economics and Business Administration
+111,Delijan Payame Noor University
+112,"Physical Education Academy ""Jedrzej Sniadecki"" in Gdansk"
+113,Rostov State University
+114,Universitas Airlangga
+115,Open University of Sri Lanka
+116,Oral Roberts University
+117,Ecole Polytechnique Marseille
+118,New England Conservatory of Music
+119,Mamasani University of Technology
+120,Banking University of Ho Chi Minh City
+121,Warner Pacific College
+122,University of Moncton
+123,Silver Lake College
+124,Free University Stockholm
+125,Pacific Union College
+126,New England Institute of Technology
+127,Maharshi Dayanand Sarswati University Ajmer
+128,Balochistan University of Information Technology & Management Sciences 
+129,Osaka University
+130,University of Silesia
+131,"Johns Hopkins University, SAIS Bologna Center"
+132,Wheeling Jesuit University
+133,Moscow University Touro
+134,University of Joensuu
+135,Universidad de Santiago de Chile
+136,Georgia Southern University
+137,Universidad para la Cooperación Internacional
+138,Academy of Public Administration of Belarus
+139,"Universidad de Puerto Rico, Aguadilla"
+140,Mekelle Institute of Technology
+141,West Bengal University of Technology
+142,College of Mount St. Vincent
+143,Ateneo de Davao University
+144,Universidad del Cine - Buenos Aires
+145,Universiti Tenaga Nasional
+146,Saitama University
+147,Université de l'Uélé
+148,Nirma University
+149,Kano State University of Technology Wudil
+150,Houston Baptist University
+151,Pennsylvania Academy of the Fine Arts
+152,Tunku Abdul Rahman Chinese College
+153,Oberlin College
+154,Hanzehogeschool Groningen
+155,"St. Francis College, Loretto"
+156,Universidad del Mar
+157,Global University
+158,State University of New York College at Cortland
+159,European Management Center Paris
+160,"Rasmussen College, Florida Campuses"
+161,Upper Nile University
+162,Brandeis University
+163,Brown University
+164,Ohio State University - Newark
+165,Université de Béjaia
+166,Technische Universität München
+167,Kharkiv National University
+168,Sage Graduate School
+169,Moscow State University of Environmental Engineering
+170,Langston University
+171,Columbia Southern University
+172,"Universidad de Bogotá ""Jorge Tadeo Lozano"""
+173,Universidade Federal do Paraná
+174,Oklahoma State University Center for Health Sciences
+175,Hochschule Bremerhaven
+176,Tashkent Pharmaceutical Institute
+177,Volgograd State Pedagogical University
+178,University of Connecticut at Hartford
+179,Bellevue University
+180,Universitas Paramadina Mulya
+181,Universidade Católica de Pelotas
+182,University of Resita
+183,Odessa State Medical University
+184,Otsuma Women's University
+185,Universidad Francisco de Paula Santander
+186,Ecole Supérieure des Sciences et Technologie de l'Ingénieur de Nancy
+187,University of Insurance and Banking in Warsaw
+188,Universidade de Nova Iguaçu
+189,Universidad Federico Henríquez y Carvajal
+190,University of Management and Marketing
+191,Dallas Baptist University
+192,Yazd Medical University
+193,Université Nancy II
+194,Newberry College
+195,Shaheed Beheshti University
+196,Universidade Salgado de Oliveira
+197,National Law School of India University
+198,Université de Sfax
+199,Universidade Independente
+200,Silesian Technical University of Gliwice
+201,"International School of New Media, University of Lübeck"
+202,Russian State Hydrometeorological University
+203,Macquarie University
+204,Universidad Nacional de General San Martín
+205,State University of New York Health Sience Centre Syracuse
+206,Amber University
+207,Thamar University
+208,Vologda State Pedagogical University
+209,University of Victoria
+210,Kokushikan University
+211,Toyama University of International Studies
+212,Universidad de San Pedro Sula
+213,University of East Asia
+214,Universidad de San Pablo CEU
+215,Arak University of Technology
+216,Morehouse College
+217,University of Cincinnati
+218,Amman University
+219,Athens University of Economics and Business
+220, Université de Nouakchott
+221,Crichton College
+222,Houdegbe North American University Benin
+223,Greenford International University
+224,Technological University (West Yangon)
+225,Universidad San Francisco Xavier
+226,University of Benghazi
+227,Universitas Negeri Padang
+228,North-West State Technical University
+229,"Institute of Teachers Education, Kota Bharu"
+230,Multnomah Bible College
+231,Université de Ziguinchor
+232,Kwantleen University College
+233,Hochschule Esslingen
+234,Zanjan Institute for Advanced Studies in Basic Sciences
+235,Guizhou University
+236,Mother Teresa Women's University
+237,Keimyung University
+238,Lincoln University Pennsylvania
+239,Aga Khan University
+240,Immanuel Kant State University of Russia
+241,Chapman University
+242,Universidad de Cádiz
+243,CETYS Universidad
+244,Universidad Nacional de Tumbes
+245,Ittihad Private University
+246,Coppin State College
+247,Perak Islamic College
+248,Ecole Supérieure d'Ingénieurs et de Techniciens pour l'Agriculture
+249,Virginia Commonwealth University
+250,Pomor State University
+251,National University of Uzbekistan
+252,Universidade Federal da Paraíba
+253,Universidad Mariana
+254,National Chi Nan University
+255,City University
+256,University of Arkansas for Medical Sciences
+257,International School of Management
+258,Universidad de Caldas
+259,University of Aleppo
+260,Jubail University College
+261,Gazi University Ankara
+262,Amherst College
+263,University of the Philippines Los Banos
+264,Buena Vista University
+265,St. Mary's University of San Antonio
+266,Ege University
+267,Wellesley College
+268,Ningxia University
+269,University of the Punjab
+270,Miles College
+271,University of Burao
+272,International Bible College
+273,Universidad Nacional de Quilmes
+274,Yantai University
+275,Shenyang Institute of Chemical Technology
+276,Plekhanov Russian Academy of Economics
+277,St. Louis University
+278,Kampala International University
+279,Athlone Institute of Technology
+280,College of Technology at Dammam
+281,Western Oregon University
+282,Universidad Hispanoamericana
+283,Cranbrook Academy of Art
+284,Atlantic Union College
+285,Kathmandu University
+286,Korea National Open University
+287,Transylvania University
+288,Southern California College
+289,Rochester College
+290,Bradley University
+291,Caritas University
+292,"Universidad ""Adolfo Ibañez"""
+293,Trinity College of Florida
+294,Universitas Sebelas Maret
+295,Fontys University of Applied Sciences
+296,Vancouver Community College
+297,Kitakyushu University
+298,Chongqing Wenli University
+299,International Christian University
+300,Alabama Agricultural and Mechanical University
+301,Novgorod State University
+302,Xinjiang University of Finance and Economics
+303,Kyrgyz National Agrarian University
+304,Claremont Graduate University
+305,Sampurnanand Sanskrit University
+306,Kandahar University
+307,University of Groningen
+308,Donau-Universität Krems
+309,Universidad Pedagógica y Tecnológica de Colombia
+310,Xi'an University of Electronic Science and Technology
+311,Hochschule für Technik und Wirtschaft Dresden (FH)
+312,Oakland City University
+313,National University of Computer & Emerging Sciences
+314,University of NorthWest
+315,International School of Management in Prešov
+316,Gokhale Institute of Politics and Economics
+317,Al Madinah International University
+318,Bethune-Cookman College
+319,Bloomfield College
+320,Universidad Politécnica de Madrid
+321,Rostov State University
+322,Université Catholique de Bukavu
+323,Universidad Autónoma de Chiapas
+324,"British Institute in Paris, University of London"
+325,Katholische Fachhochschule Berlin (KFB)
+326,Kakatiya University
+327,University of the City of Manila
+328,Université de Technologie de Compiègne
+329,Appalachian Bible College
+330,Abu Dhabi University
+331,Facultés Universitaires Catholiques de Mons
+332,University of Gdansk
+333,University of the Sunshine Coast
+334,Athens Laboratory of Business Administration (ALBA)
+335,Royal Melbourne Institute of Technology
+336,Andon College - Modesto
+337,Grantham University
+338,Ecole Nationale Supérieur des Ingénieur des Etudes et Techniques d'Armement
+339,University of Botswana
+340,South University of Science and Technology of China 
+341,The Federal Polytechnic Offa
+342,Universidad Nacional Autónoma de México
+343,Srinakharinwirot University
+344,Universidade do Sagrado Coração
+345,Katholieke Universiteit Leuven
+346,Dammam Community College
+347,Zhejiang University of Technology
+348,Ho Chi Minh City University of Law
+349,Inner Mongolia Normal University
+350,Universidad de Magallanes
+351,Universidad Nacional Pedro Ruíz Gallo
+352,People's University of Bangladesh
+353,Universität Leipzig
+354,Hiroshima Jogakuin University
+355,Sylhet Engineering College
+356,Cumberland University
+357,Iniciativa Universidad del Atlantico
+358,University of Lucerne
+359,Université de la Polynésie Française
+360,"Islamic Azad University, Tehran South"
+361,Indiana University of Pennsylvania
+362,University of Detroit Mercy
+363,Hakuoh University
+364,Fachhochschule Koblenz
+365,Ajman University of Science & Technology
+366,Universidad Autonoma  de Durango
+367,Shizuoka Sangyo University
+368,Smith College
+369,John F. Kennedy University
+370,King Fahd Security College
+371,Université Mohammed V - Agdal
+372,William Jewell College
+373,University of Alaska - Fairbanks
+374,Christian Theological Academy in Warszaw
+375,European University at St.Petersburg
+376,Daido Institute of Technology
+377,Amity University
+378,Fachhochschule für die Wirtschaft
+379,"Rasmussen College, Minnesota Campuses"
+380,Ruhr-Universität Bochum
+381,Centre Universitaire de Technologie
+382,"Institute of Teachers Education, Kota Bharu"
+383,Universidad Catolica de La Santísima Concepción
+384,Universidad Mayor de San Simón
+385,Business School Lausanne (BSL)
+386,Pennsylvania College of Optometry
+387,Universidad Central de Las Villas
+388,Misr University for Sience and Technology
+389,Anton de Kom University
+390,St. Petersburg StateMechnikov  Medical Academy
+391,Full Sail University
+392,"Taylor University, Fort Wayne Campus"
+393,Pamukkale University
+394,University of the Immaculate Conception
+395,Tokyo Women's College of Physical Education
+396,Université Pierre Mendes-France (Grenoble II)
+397,Hiroshima University of Economics
+398,Universidad Tecnológica del Peru
+399,Al-Quds University - The Arab University in Jerusalem
+400,Musashino Women's University
+401,Jawaharlal Nehru Centre for Advanced  Scientific Research
+402,College of Busniess Admnistration
+403,Chia Nana College of Pharmacy and Science
+404,Université Notre Dame d'Haïti
+405,Moscow State University of Railway Transport
+406,"Institut d'Agriculture, de Technologie et d'Education de Kibungo"
+407,Universitas Nasional Jakarta
+408,Technological University (Meikhtila)
+409,University of Indianapolis
+410,Southern California College of Optometry
+411,St. Petersburg State Agrarian University
+412,International Institute for Geo - Information Science and Earth Observation
+413,Universitas Komputer Indonesia
+414,Cyprus College
+415,Gemological Institute of America
+416,Korea National University of Arts
+417,"Politécnico Columbiano ""Jaime Isaza Cadavid"""
+418,University of Houston
+419,Lagos State University
+420,Technical Institute of Dubnica in Dubnica nad Váhom
+421,Morehouse College
+422,Universidad San Pablo
+423,Colorado School of Mines
+424,Fielding Institute
+425,National Academy of Fine Arts
+426,Higashi Nippon International University
+427,Takasaki City University of Economics
+428,Australian Lutheran College
+429,Claremont Lincoln University
+430,Louisiana State University at Eunice
+431,Evangel University
+432,Kabul Medical University
+433,Fachhochschule Neubrandenburg
+434,Urmia University of Technology
+435,Continental Theological Seminary
+436,Kamalolmolk Art & Architecture Higher Education Institute of Noshahr
+437,Instituto Superior de Ciências Empresariais e de Turismo
+438,University of Kirkuk
+439,Universidad Técnica de Ambato
+440,Hanazono University
+441,National Institute of Development Administration
+442,Presidency University
+443,Briar Cliff College
+444,Bangladesh Agricultural University
+445,Tallinn University
+446,Freed-Hardeman University
+447,Pennsylvania Institute of Technology
+448,Technische Universität Bergakademie Freiberg
+449,Katholieke Hogeschool Limburg
+450,Nara Medical University
+451,Asian Medical Institute
+452,Toyota Technological Institute
+453,University Institute of Architecture Venice
+454,"Islamic Azad University, Falavarjan "
+455,Miles College
+456,Istanbul University
+457,Haynal Imre University of Health Sciences Budapest
+458,Universidad Nacional del Littoral
+459,Universidad de Celaya
+460,Tartu Health Care College
+461,Ewha Women's University
+462,Elmergib University
+463,San Francisco State University
+464,Moraine Valley Community College
+465,Wright State University
+466,Luther College
+467,"National American University, Albuquerque"
+468,Upper Iowa University
+469,Universidad Nacional Abierta y a Distancia
+470,Hebei United University
+471,Universidad Católica de Santiago del Estero
+472,Iniciativa Universidad del Atlantico
+473,NTB Interstate University of Applied Sciences of Technology
+474,Northern Arizona University
+475,University of Leeds
+476,McMurry University
+477,University of Petrosani
+478,Visvesvaraya Technological University
+479,Engineering Colleges in Tamil Nadu
+480,Université Mentouri Constantine
+481,Ateneo de Naga University
+482,Fachhochschule Vorarlberg
+483,Suwon University
+484,City University
+485,Universidad Madero
+486,Warner Southern College
+487,Middle East University
+488,Institut des Sciences de l'Ingénieur de Clermont-Ferrand
+489,Universidade Estadual de Santa Cruz
+490,Fachhochschule Jena
+491,Mount Marty College
+492,University of Tampa
+493,Lithunian Institute of Physical Education
+494,Jilin University of Technology
+495,LungHwa University of Science and Technology
+496,Technische Universität Hamburg-Harburg
+497,Lakehead University
+498,Ecole Supérieure des Sciences Commerciales d'Angers
+499,Université de Marne la Vallée
+500,Toyo University
+501,William Mitchell College of Law
+502,Universidade Veiga de Almeida
+503,Instituto Politécnico da Guarda
+504,United States Naval Academy
+505,Ulsan University
+506,Abdus Salam international centre for theoretical physics
+507,Jeonju University
+508,Universidade Católica de Brasília
+509,Kansas State University
+510,"University of St. Thomas, Houston"
+511,Universitat Pompeu Fabra
+512,Pennsylvania Institute of Technology
+513,Udmurt State University
+514,Bar-Ilan University
+515,University of Texas at El Paso
+516,Fukui University
+517,"De La Salle University, Araneta"
+518,Central Philippine University
+519,Ondokuz Mayis University Samsun
+520,San Francisco Conservatory of Music
+521,Universidade Cruzeiro do Sul
+522,Austin College
+523,Heilongjiang University
+524,Iasar University
+525,Sebatian Kolowa University College
+526,National College for Medical and Technical Studies
+527,Sacred Heart University
+528,"Cleveland Chiropractic College, Los Angeles"
+529,University of Central Oklahoma
+530,Technological University (Hmawbi)
+531,Aichi University of Education
+532,Tiffin University Prague
+533,Universidad de Guanajuato
+534,University of Kent at Canterbury
+535,Dokkyo University School of Medicine
+536,Hanoi University of Science
+537,STMIK Sinar Nusantara
+538,University of Wamia and Masuria in Olsztyn
+539,Taipei Municipal Teachers College
+540,Franciscan University of Steubenville
+541,Nippon Sport Science University
+542,Azerbaijan University
+543,Morrison College
+544,American International University West Africa
+545,"Islamic Azad University, Semnan"
+546,University of Trnava
+547,Universidade Regional de Blumenau
+548,Universidad Autónoma de Manizales
+549,Seinan Gakuin University
+550,"University Center ""César Ritz"""
+551,Northwestern University In Qatar
+552,Capitol College
+553,European Open University
+554,Cecos Univeristy of Information Technology
+555,Academia de Studii Economice din Bucuresti
+556,Wilberforce University
+557,Sapporo Medical University
+558,Lincoln University
+559,Gordon Conwell Theological Seminary
+560,KBU International College
+561,Universidad Privada Los Andes
+562,Guizhou University
+563,"Rasmussen College, Illinois Campuses"
+564,"Indian Institute of Management, Tiruchirappalli"
+565,University of Memphis
+566,Perm State Pedagogical University
+567,Tiffin University
+568,Catholic University of Eastern Africa
+569,St. Mary's University
+570,Universität für künstlerische und industrielle Gestaltung Linz
+571,Preston Institute of Management Sciences and Technology (PIMSAT)
+572,Georgia Southern University
+573, Dedan Kimathi University of Technology
+574,Tuskegee University
+575,Texas Christian University
+576,Universitas Madura
+577,College of Aeronautics
+578,Université de Picardie Jules-Verne
+579,Capilano College
+580,Avinashilingam Institute for Home Science and Higher Education for Women
+581,Palestine Technical College-Dier Elbalah
+582,Our Lady of Holy Cross College
+583,Southern University Bangladesh
+584,St. Petersburg State Chemical Pharmaceutical Academy
+585,University of Teramo
+586,Kharkiv State Transport Technical University
+587,Lithunian Veterinary Academy
+588,Ehime University
+589,New England College
+590,Universidade Salvador
+591,Sumgait State University
+592,Central University for Nationalities
+593,Kanagawa Dental College
+594,Al Mamon University College
+595,Universidad Central Dominicana de Estudio Profesionales
+596,Cochin University of Science and Technology
+597,Baylor University
+598,Universidad Femenina del Sagrado Corazón
+599,Universidad Franco-Mexicana
+600,University of Cincinnati
+601,Kasetsart University
+602,Institut National des Postes et Télécommunications
+603,Universitas Kristen Krida Wacana
+604,University of El Imam El Mahdi University
+605,Hanazono University
+606,Universidad Simón Bolivar
+607,"University of Moncton, Edmundston"
+608,Karlshochschule International University
+609,University of Canterbury
+610,Universidad de San Buenaventura Medellin
+611,Technological Education Institute of Mesologgi
+612,Valley Forge Christian College
+613,Aga Khan University
+614,Dublin Institute for Advanced Studies
+615,Université de Tunis
+616,Universidad de La Habana
+617,Hirosaki University
+618,Karnatak University
+619,Beijing University of Science and Technology
+620,Liverpool Hope University College
+621,Universitas Lancang Kuning
+622,Universitas 17 Agustus 1945 Samarinda
+623,University of Kufa
+624,Zhongnan University of Finance and Economics
+625,Marathwada Agricultural University
+626,Darul Takzim Institute of Technology
+627,Adeyemi College of Education
+628,Georgetown University
+629,PSG College of Technology
+630,Hogere Zeevaartschool - Maritime Academy
+631,University of Kelaniya
+632,University of Arkansas at Fayetteville
+633,Firat (Euphrates) University
+634,Longwood College
+635,Sri Ramachardra Medical College and Research Institute
+636,Wenzhou University
+637,International Islamic College of Penang
+638,Fiji School of Medicine
+639,St. Petersburg State Conservatory
+640,Shorter College
+641,Patuakhali Science and Technology University
+642,East West University
+643,Emory & Henry College
+644,Anhui University of Finance and Economics
+645,University of Nebraska Medical Center
+646,Universite Amadou Hampaté Ba
+647,Universitas HKBP Nommensen
+648,Nuclear Institute for Agriculture and Biology (NIAB)
+649,University of Petroleum (East China)
+650,Vinoba Bhave University
+651,International University of Business Agriculture and Technology
+652,Morris Brown College
+653,Kwantleen University College
+654,Notre Dame University
+655,University of Perpetual Help
+656,Brigham Young University
+657,Abfi Institute Perbanas Jakarta
+658,University of Chicago
+659,Universidade Federal de Minas Gerais
+660,"Universitatea de Vest ""Vasile Goldi&#351;"" "
+661,Baltic State Technical University
+662,Pontifícia Universidade Católica de São Paulo
+663,College of Technology at Kharj
+664,University of Southampton
+665,Art Institute of Charlotte
+666,Tshwane University of Technology
+667,Medizinische Universität Wien
+668,Guru Gobind Singh Indraprastha University
+669,Fachhochschule Düsseldorf
+670,Fairmont State College
+671,University of South Carolina - Union
+672,Medical College of Georgia
+673,Al Mansour University College
+674,Palm Beach Atlantic University
+675,University of Negros Occidental-Recoletos
+676,Université de Gafsa
+677,Universidad Alberto Hurtado
+678,Technion - Israel Institute of Technology
+679,Universidad Popular del Cesar
+680,Shomal University
+681,Blue Nile University
+682,Eurasia International University
+683,Medical University of Sofia
+684,Shanghai International Studies University
+685,Atlantic International University
+686,Kobe Shoin Women's University
+687,Bennett College
+688,University of Southampton
+689,Carnegie Mellon University
+690,Augustana College
+691,McKendree College
+692,Philadelphia College of Osteopathic Medicine
+693,Eckerd College
+694,Tokyo Medical College
+695,Virginia Commonwealth University
+696,Kongju National University
+697,Medizinische Universität Wien
+698,Humboldt Universität Berlin
+699,Kebbi State University of Science and Technology
+700,"Royal Danish Academy of Fine Arts, School of Visual Art"
+701,"Universidad de Puerto Rico, Mayaguez"
+702,Sami Shamoon College of Engineering
+703,Marij State Technical University
+704,East China Jiao Tong University
+705,City University Programs in Bulgaria 
+706,Ecole Nationale Supérieure des Mines de Nancy
+707,Aichi Bunkyo University
+708,Virginia College
+709,Sheridan College
+710,Tumaini University - Iringa University College
+711,Acdemic Center for Law and Business
+712,Castleton State College
+713,Kyonggi University
+714,Beijing University of Chinese Medicine and Pharmacology
+715,Ecole Centrale de Lille
+716,Vilnius Pedagogical University
+717,Messiah College
+718,York University
+719,Instituts Supérieurs de Formation des Maîtres
+720,University of Economics Varna
+721,Gwangju Catholic College
+722,Athens School of Fine Arts
+723,Texas A&M University - Texarkana
+724,University of Groningen
+725,"University of California, San Diego"
+726,Universitas Muslim Indonesia
+727,Balikesir University
+728,Ecole des Hautes Etudes Commerciales MAROC
+729,University of Maiduguri
+730,Purbanchal University
+731,Shomal University
+732,Technical University of Koszalin
+733,Johns Hopkins University
+734,University of the Philippines Diliman
+735,Western Governors University
+736,Columbus University
+737,Fomic Polytechnic
+738,Banaras Hindu University
+739,Moraine Valley Community College
+740,Mount Kenya University
+741,Gonzaga University
+742,Sohag University
+743,Abasyn University Peshawar
+744,University College Cork
+745,"Universidad Latinoamericana de Ciencia y Tecnologia, Panamá"
+746,Nicholls State University
+747,Soka University
+748,Cyberjaya University College of Medical Science
+749,"Institut National de la Recherche Scientifique, Université du Québec"
+750,Universidad Fermin Toro
+751,Addis Ababa Science & Technology University
+752,Katholische Fachhochschule Berlin (KFB)
+753,Cape Coast Polytechnic 
+754,Arab American University - Jenin
+755,Deylaman Institute of Higher Education
+756,Iranian Academy of Persian Language and Literature
+757,Moldova Technical University
+758,Ferris State University
+759,Moraine Valley Community College
+760,Uzbek State World Languages University
+761,University College Bahrain
+762,Great Zimbabwe University
+763,IDRAC (Institut de recherche en action commerciale)
+764,Honam University
+765,University of Illinois at Chicago
+766,Universidade Ibirapuera
+767,Vaasa University of Applied Sciences
+768,Assumption College
+769,Universidade Federal do ABC
+770,Nicholls State University
+771,Foundation University
+772,Ecole Supérieure de Commerce de Sophia Antipolis
+773,Universidad Autónoma de Occidente
+774,Universidad del Aconcagua
+775,Bidhan Chandra Agricultural University
+776,Aquinas College
+777,Lake Forest College
+778,Koriyama Women's University and College
+779,Southwest Missouri State University
+780,Universitas Bakrie
+781,Inner Mongolia Polytechnic University
+782,Athens University of Economics and Business
+783,State University of Aerospace Technologies
+784,Ecole Nationale Supérieure d'Ingénieurs de Génie Chimique
+785,University of Tennessee - Martin
+786,Hokkaido Information University
+787,University of Eastern Philippines
+788,Vassar College
+789,Baitulmal Management Institute (IPB)
+790,Katharine Gibbs School
+791,Siebold University of Nagasaki
+792,University of Malakand
+793,Voronezh State Academy of Technology
+794,Otemae University
+795,Hamline University
+796,Merlimau Polytechnic
+797,Technical University of Opole
+798,Fudan University
+799,Moscow State University of Environmental Engineering
+800,Sinnar University
+801,Liaocheng Teachers University
+802,Occidental College
+803,Pomorsk State University
+804,Messiah College
+805,Ecole Supérieure de Commerce de Nantes-Atlantique
+806,Azad Jammu and Kashmir University
+807,Kota Bharu Polytechnic
+808,Banaras Hindu University
+809,Ferrum College
+810,Swiss Business School Zurich (SBS)
+811,NHTV Breda University of Professional Education
+812,Rajarata University of Sri Lanka
+813,Irbid National University
+814,Universidad Politécnica de Madrid
+815,Kandahar University
+816,University of Economics in Bratislava
+817,Kyoto Seika University
+818,St. Petersburg State University of Technology and Design
+819,University of Veterinary Medicine in Kosice
+820,University of Teramo
+821,Universidad de Oriente
+822,Nepal Sanskrit University
+823,Forest Research Institute Dehradun
+824,University of Reggio Calabria
+825,Politeknik Negeri Sambas
+826,University of Art and Design Cluj-Napoca
+827,ITT Technical Institute Indianapolis
+828,Allegheny College
+829,Southeast University
+830,Universidad Católica Nordestana
+831,Universidad de La Habana
+832,Universidad de las Américas (ULAM)
+833,Xi'an University of Architecture and Technology
+834,Institut Teknologi Adhi Tama Surabaya
+835,Dominica State College
+836,Fomic Polytechnic
+837,Fukuyama Heisei University
+838,Universidad Autónoma del Caribe
+839,Shaheed Zulifkar Ali Bhutto Institute of Science and Technology
+840,Universitas Mataram
+841,Newberry College
+842,Regent International University
+843,University of Dubuque
+844,University of Arkansas at Little Rock
+845,University of Macedonia
+846,Deccan College Postgraduate and Research Institute
+847,Kobe City University of ForeignStudies
+848,Asahikawa University
+849,Gediz University
+850,Turin Polytechnic University In Tashkent
+851,International Budo University
+852,Universidad San Ignacio de Loyola
+853,San Diego University for Integrative Studies
+854,"College of Science, Baghdad University"
+855,Batchelor Institute of Indigenous Tertiary Education
+856,"Veliko Turnovo University ""Cyril and Methodius"""
+857,Southern Cross University
+858,Wuhan Technical University of Surveying and Mapping
+859,Trinity Bible College
+860,Kansai Gaidai University
+861,Hanoi University of Science & Technology
+862,Renmin University of China
+863,Pädagogische Hochschule Weingarten
+864,Indian Agricultural Research Institute
+865,Banasthali University
+866,Central Police University
+867,Nova Southeastern University
+868,Christendom College
+869,Fundación Universitaria del Area Andina. Sede Pereira
+870,Misr International University
+871,Musashino Art University
+872,George Brown College
+873,Western New England College
+874,Stillman College
+875,University of Pretoria
+876,Boise State University
+877,Fachhochschule Bingen
+878,Urmia University
+879,Lingnan University
+880,Shandong University
+881,Dimocritus University of Thrace
+882,University of Trento
+883,University of Osijek
+884,California School of Professional Psychology - Berkley/Alameda
+885,Hochschule für Philosophie München
+886,International Centre for Isclamic Science
+887,Tokushima Bunri University
+888,Millsaps College
+889,Central University of Finance and Economics
+890,Academy of Public Administration
+891,Institucion Universitaria de Envigado
+892,Tamil Nadu Agricultural University
+893,Gezira College of Technology
+894,University of Technology Phnom Penh
+895,Baitulmal Management Institute (IPB)
+896,Northwest University
+897,Auchi Polytechnic
+898,International University of Novi Pazar
+899,Universitas Krisnadwipayana
+900,Central State University
+901,"Arkansas State University, Newport"
+902,Hellenic Open University
+903,Moscow State University of Environmental Engineering
+904,Shahed University
+905,Mizan Tepi University
+906,University of Macedonia
+907,University of Sadat City
+908,Korea National Open University
+909,Ganja State University 
+910,Hellenic Army Academy
+911,Trinity Theological Seminary
+912,Dhurakijpundit University
+913,University of Italian Studies for Foreigners of Perugia
+914,"Kunsthochschule Berlin-Weissensee, Hochschule für Gestaltung "
+915,Minsk Institute of Management
+916,International Centre for Isclamic Science
+917,SRM Institute Of Science & Technology ( Deemed University)
+918,Hartwick College
+919,Kadir Has University
+920,Bule Hora  University
+921,Fachhochschule Krems
+922,International Institute for Population Sciences
+923,University of Connecticut at Avery Point
+924,Salem Teikyo University
+925,Scott Christian University
+926,Baker College of Auburn Hills
+927,Clark University
+928,Hai Duong University
+929,Sebha University
+930,Pontificia Università della Santa Croce
+931,Binus University
+932,Polytechnic Institute of Turin
+933,University School of Physical Education
+934,International University of Kagoshima
+935,Grove City College
+936,Indian Institute of Information Technology
+937,Adiban Higher Education Institue
+938,"Institute of Teachers Education, Technical Education "
+939,Siberian State Medical University
+940,Ionian University Corfu
+941,University of San Francisco
+942,Institut d'Etudes Politiques de Bordeaux
+943,Elmhurst College
+944,Lawrence University
+945,Minot State University
+946,College for Lifelong Learning
+947,Academy of Economics in Wroclaw
+948,Georgetown University
+949,Warsaw School of Economics
+950,Shih Chien University
+951,Regent University
+952,Assumption University of Thailand
+953,Fachhochschule Salzburg
+954,National College for Medical and Technical Studies
+955,Union College Nebraska
+956,Noakhali University of Science and Technology
+957,Rock Valley College
+958,Tama Art University
+959,Voronezh State University
+960,King Fahd Security College
+961,Mount Olive College
+962,"South-West University ""Neofit Rilski"""
+963,Freed-Hardeman University
+964,"Islamic Azad University, Tehran Science & Research Branch"
+965,Universidad Privada Antenor Orrego
+966,Claremont Graduate University
+967,Hodeidah University
+968,Governors State University
+969,Galway Mayo Institute of Technology
+970,Northeastern State University
+971,Portland Community College
+972,Pitzer College
+973,Fachhochschule Krems
+974,Rider University
+975,"Shobhit University, Meerut"
+976,National University of Rwanda
+977,Kurume University
+978,Kano State University of Technology Wudil
+979,Warsaw School of Information Technology
+980,The Master's College
+981,Ecole Nationale Supérieure des Industries Chimiques de Nancy
+982,RKDF University
+983,University of Engineering and Technology Taxila
+984,University of Crete
+985,Aichi Bunkyo University
+986,Ontario College of Art and Design
+987,Tata Institute of Social Sciences
+988,Gokhale Institute of Politics and Economics
+989,Centro Universitário Claretiano
+990,Colby-Sawyer College
+991,Tula State University
+992,State University of New York College at Oneonta
+993,Kwansei Gakuin University
+994,Universidad de San Andres
+995,Ahfad University for Women
+996,Instituto Politécnico de Lisboa
+997,Okayama University
+998,Yerevan Haibusak University
+999,"California State University, San Bernadino"
+1000,National Tsinghua University

@@ -138,8 +138,7 @@ TBA
 - [x] Create database to store each input file;
 - [x] Implement the API endpoint to store the input files;
 - [x] Implement the API endpoint to download the output files;
-- [ ] Implement the business logic with concurrence execution;
-- [ ] Design & implement the DB schema;
+- [X] Implement the business logic with concurrence execution;
 - [ ] Add SonarCloud analysis;
 
 # Further features
