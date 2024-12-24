@@ -123,7 +123,7 @@ public class CsvProcessor implements Runnable {
             totalMessagesPerUser.put(message.getUserId(), totalMessagesPerUser.getOrDefault(message.getUserId(), 0) + 1);
             averageScorePerUser.put(
                     message.getUserId(),
-                    averageScorePerUser.getOrDefault(message.getUserId(), 0f) + message.getScore() / totalMessagesPerUser.getOrDefault(message.getUserId(), 1)
+                    averageScorePerUser.getOrDefault(message.getUserId(), 0f) + message.getScore() / 2
             );
         });
         return totalMessagesPerUser
