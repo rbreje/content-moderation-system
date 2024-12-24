@@ -1,7 +1,6 @@
 package dev.breje.simplecms.service.storage;
 
 import dev.breje.simplecms.dtos.FileDownloadRequest;
-import dev.breje.simplecms.dtos.FileDownloadResponse;
 import dev.breje.simplecms.dtos.FileUploadRequest;
 import dev.breje.simplecms.dtos.FileUploadResponse;
 import dev.breje.simplecms.service.storage.exceptions.StorageException;

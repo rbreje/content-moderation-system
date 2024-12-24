@@ -78,8 +78,8 @@ public class CsvProcessor implements Runnable {
             throw new CannotProcessFileException("An error occurred while processing a file.", e);
         }
 
-        ExecutorService dedicatedExecutorService = Executors.newFixedThreadPool(8);
         // TODO make it configurable
+        ExecutorService dedicatedExecutorService = Executors.newFixedThreadPool(8);
 
         // process the messages on separate threads
         workingMessages.forEach(message ->
@@ -93,6 +93,7 @@ public class CsvProcessor implements Runnable {
                 })
         );
         dedicatedExecutorService.shutdown();
+        
         try {
             // TODO make the timeout configurable
             boolean tasksFinished = dedicatedExecutorService.awaitTermination(1, TimeUnit.HOURS);

@@ -24,7 +24,7 @@ class ScoringServiceConnectionTest {
     }
 
     @Test
-    void scoreReturnsValidResponse() throws ScoringServiceConnectionException {
+    void score_whenSuccess_thenReturnsValidResponse() throws ScoringServiceConnectionException {
         ScoringRequest request = new ScoringRequest("Test message");
         when(random.nextInt(151)).thenReturn(100);
         when(random.nextFloat()).thenReturn(0.75f);
@@ -36,7 +36,7 @@ class ScoringServiceConnectionTest {
     }
 
     @Test
-    void scoreHandlesInterruptedException() {
+    void score_whenError_thenHandlesInterruptedException() {
         ScoringRequest request = new ScoringRequest("Test message");
         Thread.currentThread().interrupt(); // Simulate InterruptedException
 

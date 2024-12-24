@@ -24,7 +24,7 @@ class ScoringServiceTest {
     }
 
     @Test
-    void getScoreReturnsValidScore() throws ScoringServiceConnectionException, ScoringServiceException {
+    void getScore_whenHappyFlow_thenReturnsValidScore() throws ScoringServiceConnectionException, ScoringServiceException {
         String message = "Test message";
         ScoringRequest request = new ScoringRequest(message);
         ScoringResponse response = new ScoringResponse(message, 0.75f);
@@ -36,7 +36,7 @@ class ScoringServiceTest {
     }
 
     @Test
-    void getScoreHandlesConnectionException() throws ScoringServiceConnectionException {
+    void getScore_whenError_thenHandlesConnectionException() throws ScoringServiceConnectionException {
         String message = "Test message";
         ScoringRequest request = new ScoringRequest(message);
         when(connection.score(request)).thenThrow(new ScoringServiceConnectionException("Connection error", new Exception()));
