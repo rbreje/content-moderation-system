@@ -165,3 +165,4 @@ curl --request GET \
 # Further features
 
 - Retry mechanism for failed connections to third-party services;
+- Compute hash of each user message to use as idempotency key for translation and scoring requests;
