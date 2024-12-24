@@ -2,6 +2,14 @@
 
 An app developed as a technical test with preconditions and specific requirements.
 
+# Notes from me (Raul Breje)
+
+I've spent ~9 hours working on the project. I started to go too broad on the solution at some point, but I managed
+to narrow it down and reach a functional state at the end.
+
+Of course, there are quite a few things to improve further on, but I think the current outcome is good enough
+to show my expertise keeping in mind the time spent on it.
+
 ## Preconditions & Assumptions
 
 - The app needs to perform well even for large input data files with millions of entries;
@@ -11,17 +19,26 @@ An app developed as a technical test with preconditions and specific requirement
 
 ## Content Moderation System Design
 
-### Initial Design
+### Second Iteration (Current State)
 
-![Initial Design](./Design/overall-architecture-v1.png)
+The CSV files are stored locally in order to decouple the upload and execution processes. The user will receive a 
+unique identifier to use later in order to check the status or retrieve the output if ready.
 
-### First Iteration
+The uploaded file is stored locally by a dedicated service and the entry is added to the DB by another service.
+
+The independent CSV processor is checking the DB for newly added files. When a new file is detected, the content of 
+it is retrieved and parse in a multi-threaded approach. This makes the CSV processing part scalable despite the amount
+of users which are uploading files to it.
+
+![Second Iteration](./Design/cms-architecture-v3.png)
+
+### First Iteration (outdated)
 
 ![First Iteration](./Design/cms-architecture-v2.png)
 
-### Second Review
+### Initial Design (outdated)
 
-![Second Iteration](./Design/cms-architecture-v3.png)
+![Initial Design](./Design/overall-architecture-v1.png)
 
 ### API Endpoints
 
@@ -34,7 +51,7 @@ or result later.
 
 #### Request
 
-file="path_to_your_file.csv"
+'file=@path_to_your_file.csv'
 
 #### Response
 
@@ -64,12 +81,17 @@ files. Hence, the endpoint will return an IN_PROGRESS status until the job is do
 
 #### Response (READY)
 
-CSV content.
+```
+user_id,total_messages,avg_score
+56038,525,0.2463875
+46332,2324,0.657238
+61854,5242,0.3047051
+```
 
 ### Database
 
-The app will store the partial results into a database in order to be able to create the required statistics of the
-outfile file.
+The app will use a table to add metadata about the uploaded files. The CSV Processor will load the metadata and will 
+initiate the processing for each entry.
 
 ## Translation Service (mocked)
 
@@ -127,6 +149,8 @@ GET /scoring-service/api/v1/score
 
 # How to Build & Run It
 
+> **Note:** The project requires Java 17.
+
 ```shell
 ./gradlew bootRun
 ```
@@ -139,16 +163,20 @@ To provide the endpoint with a file to process.
 curl --request POST \
   --url http://localhost:8080/api/v1/file \
   --header 'Content-Type: multipart/form-data' \
-  --form 'file=@/home/rbreje/dev/workspaces/personal-workspace/content-moderation-system/Input Samples/input1.csv'
+  --form 'file=@/localpath/input1.csv'
 ```
 
 To retrieve the outfile or check the status.
 
 ```shell
 curl --request GET \
-  --url http://localhost:8080/api/v1/file/ab8f2571-f107-4c4b-94ed-dcea2890360a \
-  --header 'Content-Type: multipart/form-data; boundary=---011000010111000001101001'
+  --url http://localhost:8080/api/v1/file/ab8f2571-f107-4c4b-94ed-dcea2890360a
 ```
+
+## Performance Tests
+
+It required ~5 minutes to processes 1 file with ~10000 records.
+It required ~5 minutes to processes 5 files with ~10000 records each.
 
 # TODOs
 

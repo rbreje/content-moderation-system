@@ -95,8 +95,7 @@ public class CsvProcessor implements Runnable {
         dedicatedExecutorService.shutdown();
         try {
             // TODO make the timeout configurable
-            // FIXME find a better way
-            boolean tasksFinished = dedicatedExecutorService.awaitTermination(10, TimeUnit.MINUTES);
+            boolean tasksFinished = dedicatedExecutorService.awaitTermination(1, TimeUnit.HOURS);
             if (!tasksFinished) {
                 throw new CannotProcessFileException("Unexpected error occurred when processing messages..");
             }
