@@ -4,6 +4,7 @@ import dev.breje.simplecms.repository.model.FileEntry;
 import dev.breje.simplecms.repository.processing.FileEntryRepository;
 import dev.breje.simplecms.service.processing.exceptions.CannotProcessFileException;
 import dev.breje.simplecms.service.processing.exceptions.CannotProcessUserMessageException;
+import dev.breje.simplecms.service.processing.model.OutputMessage;
 import dev.breje.simplecms.service.processing.model.WorkingMessage;
 import dev.breje.simplecms.service.scoring.ScoringService;
 import dev.breje.simplecms.service.scoring.exceptions.ScoringServiceException;
@@ -23,10 +24,12 @@ import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 import static java.lang.Thread.sleep;
 
@@ -40,6 +43,7 @@ public class CsvProcessor implements Runnable {
     private final TranslationService translationService;
     private final ScoringService scoringService;
     private final Map<FileEntry, String> workingMap = new ConcurrentHashMap<>();
+    private final ExecutorService executorService;
 
     @Autowired
     public CsvProcessor(FileEntryRepository fileEntryRepository, StorageService storageService, TranslationService translationService, ScoringService scoringService) {
@@ -47,6 +51,9 @@ public class CsvProcessor implements Runnable {
         this.storageService = storageService;
         this.translationService = translationService;
         this.scoringService = scoringService;
+
+        // TODO make it configurable
+        executorService = Executors.newFixedThreadPool(8);
     }
 
     private void processEntry(FileEntry fileEntry) {
@@ -73,7 +80,7 @@ public class CsvProcessor implements Runnable {
 
         ExecutorService dedicatedExecutorService = Executors.newFixedThreadPool(8);
         // TODO make it configurable
-        
+
         // process the messages on separate threads
         workingMessages.forEach(message ->
                 dedicatedExecutorService.submit(() -> {
@@ -88,6 +95,7 @@ public class CsvProcessor implements Runnable {
         dedicatedExecutorService.shutdown();
         try {
             // TODO make the timeout configurable
+            // FIXME find a better way
             boolean tasksFinished = dedicatedExecutorService.awaitTermination(10, TimeUnit.MINUTES);
             if (!tasksFinished) {
                 throw new CannotProcessFileException("Unexpected error occurred when processing messages..");
@@ -96,32 +104,9 @@ public class CsvProcessor implements Runnable {
             throw new CannotProcessFileException("Unexpected error occurred when processing messages..", e);
         }
 
-        // compute the output of the file
-        Map<String, Integer> userTotalMessages = new HashMap<>();
-        Map<String, Float> userAverageScores = new HashMap<>();
-        workingMessages.forEach(message -> {
-            userTotalMessages.put(message.getUserId(), userTotalMessages.getOrDefault(message.getUserId(), 0) + 1);
-            userAverageScores.put(
-                    message.getUserId(),
-                    userAverageScores.getOrDefault(message.getUserId(), 0f) + message.getScore() / userTotalMessages.getOrDefault(message.getUserId(), 1)
-            );
-        });
-        StringBuilder sb = new StringBuilder();
-        sb.append("user_id,total_messages,avg_score\n");
-        userTotalMessages.keySet().forEach(userId ->
-                {
-                    sb.append(userId);
-                    sb.append(",");
-                    sb.append(userTotalMessages.get(userId));
-                    sb.append(",");
-                    sb.append(userAverageScores.get(userId));
-                    sb.append("\n");
-                }
-        );
-
-        // dump the outcome to the file
+        // compute the output & dump the outcome to the file
         try {
-            storageService.storeContent(fileEntry.getUuid(), sb.toString());
+            storageService.storeContent(fileEntry.getUuid(), getExecutionSummary(getComputedOutput(workingMessages)));
         } catch (StorageException e) {
             throw new CannotProcessFileException("The output file cannot be processed.", e);
         }
@@ -129,6 +114,40 @@ public class CsvProcessor implements Runnable {
         // mark the file as done in DB
         fileEntry.setStatus(ProcessingStatus.DONE.getStatus());
         fileEntryRepository.save(fileEntry);
+    }
+
+    private Set<OutputMessage> getComputedOutput(List<WorkingMessage> workingMessages) {
+        Map<String, Integer> totalMessagesPerUser = new HashMap<>();
+        Map<String, Float> averageScorePerUser = new HashMap<>();
+        workingMessages.forEach(message -> {
+            totalMessagesPerUser.put(message.getUserId(), totalMessagesPerUser.getOrDefault(message.getUserId(), 0) + 1);
+            averageScorePerUser.put(
+                    message.getUserId(),
+                    averageScorePerUser.getOrDefault(message.getUserId(), 0f) + message.getScore() / totalMessagesPerUser.getOrDefault(message.getUserId(), 1)
+            );
+        });
+        return totalMessagesPerUser
+                .keySet()
+                .stream()
+                .map(userId -> new OutputMessage(userId, totalMessagesPerUser.get(userId), averageScorePerUser.get(userId)))
+                .collect(Collectors.toSet());
+    }
+
+    private String getExecutionSummary(Set<OutputMessage> outputMessages) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("user_id,total_messages,avg_score");
+        sb.append(System.lineSeparator());
+        outputMessages.forEach(message ->
+                {
+                    sb.append(message.userId());
+                    sb.append(",");
+                    sb.append(message.totalMessages());
+                    sb.append(",");
+                    sb.append(message.averageScore());
+                    sb.append(System.lineSeparator());
+                }
+        );
+        return sb.toString();
     }
 
     private void loadData() {
@@ -149,7 +168,9 @@ public class CsvProcessor implements Runnable {
                         .stream()
                         .filter(entry -> ProcessingStatus.from(entry.getValue()).isNew())
                         .forEach(entry -> {
-                            processEntry(entry.getKey());
+                            executorService.submit(
+                                    () -> processEntry(entry.getKey())
+                            );
                             entry.setValue(ProcessingStatus.IN_PROGRESS.getStatus());
                         });
                 sleep(1000);
